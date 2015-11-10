@@ -1,0 +1,249 @@
+﻿ <1> 23/04/2015 09:59:12.713     [Error  ] - Component Files not found : model.ecf
+ <1> 23/04/2015 09:59:12.792     [Error  ] - Component Files not found : model.ecf
+ <1> 23/04/2015 09:59:29.685     [Error  ] - Component Files not found : model.ecf
+ <1> 23/04/2015 09:59:29.741     [Error  ] - Component Files not found : model.ecf
+ <1> 23/04/2015 09:59:39.661     [Error  ] - Contraseña incorrecta.
+ <1> 23/04/2015 09:59:44.852     [Error  ] - Contraseña incorrecta.
+ <1> 23/04/2015 10:04:00.865     [Error  ] - Component Files not found : model.ecf
+ <1> 23/04/2015 10:04:00.925     [Error  ] - Component Files not found : model.ecf
+ <1> 23/04/2015 10:32:23.857     [Error  ] - Component Files not found : model.ecf
+ <1> 23/04/2015 10:32:23.912     [Error  ] - Component Files not found : model.ecf
+ <1> 23/04/2015 10:35:55.276     [Error  ] - Component Files not found : model.ecf
+ <1> 23/04/2015 10:35:55.356     [Error  ] - Component Files not found : model.ecf
+ <1> 23/04/2015 10:43:42.696     [Error  ] - Component Files not found : model.ecf
+ <1> 23/04/2015 10:43:42.753     [Error  ] - Component Files not found : model.ecf
+ <1> 28/04/2015 10:48:15.942     [Error  ] - Component Files not found : model.ecf
+ <1> 28/04/2015 10:48:16.012     [Error  ] - Component Files not found : model.ecf
+ <1> 30/04/2015 09:29:34.914     [Error  ] - Component Files not found : model.ecf
+ <1> 30/04/2015 09:29:34.988     [Error  ] - Component Files not found : model.ecf
+ <1> 30/04/2015 09:29:41.273     [Error  ] - Contraseña incorrecta.
+ <1> 30/04/2015 09:30:14.898     [Error  ] - RFC errónea, del digíto 4 al 9 deben ser tipo Numérico
+ <1> 30/04/2015 09:30:19.230     [Error  ] - RFC errónea, del digíto 4 al 9 deben ser tipo Numérico
+ <1> 30/04/2015 09:30:41.149     [Error  ] - Invalid number, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración
+ <1> 30/04/2015 09:30:45.757     [Error  ] - Debe capturar el Usuario de Correo.
+ <1> 30/04/2015 09:32:16.476     [Error  ] - File not found:  C:\CE\CASV\Cuentas\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 30/04/2015 09:32:16.493     [Error  ] - File not found:  C:\CE\CASV\Balanza\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 30/04/2015 09:32:16.511     [Error  ] - File not found:  C:\CE\CASV\Poliza\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 30/04/2015 09:32:16.557     [Error  ] - File not found:  IGUAL QUE LAS PANTALLAS ANTERIORES, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 30/04/2015 09:32:16.564     [Error  ] - File not found:  IGUAL QUE LAS PANTALLAS ANTERIORES, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 30/04/2015 09:37:55.193     [Error  ] - Component Files not found : model.ecf
+ <1> 30/04/2015 09:37:55.252     [Error  ] - Component Files not found : model.ecf
+ <1> 30/04/2015 09:38:20.460     [Error  ] - Debe capturar la Ruta para los Archivos Procesados.
+ <1> 30/04/2015 09:38:42.600     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\ C:\CE\CASV\CASV\Cuentas\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 30/04/2015 09:38:42.639     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\ C:\CE\CASV\CASV\Balanza\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 30/04/2015 09:38:42.648     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\ C:\CE\CASV\CASV\Poliza\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 30/04/2015 09:38:42.656     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\ C:\CE\CASV\Procesados\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 30/04/2015 09:38:42.661     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\ C:\CE\CASV\Generados\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 30/04/2015 09:40:09.912     [Error  ] - Component Files not found : model.ecf
+ <1> 30/04/2015 09:40:09.969     [Error  ] - Component Files not found : model.ecf
+ <1> 06/05/2015 23:41:33.499     [Error  ] - Component Files not found : model.ecf
+ <1> 06/05/2015 23:41:33.606     [Error  ] - Component Files not found : model.ecf
+ <1> 08/05/2015 10:27:54.446     [Error  ] - Component Files not found : model.ecf
+ <1> 08/05/2015 10:27:54.592     [Error  ] - Component Files not found : model.ecf
+ <1> 11/05/2015 13:44:00.569     [Error  ] - Component Files not found : model.ecf
+ <1> 11/05/2015 13:44:00.715     [Error  ] - Component Files not found : model.ecf
+ <1> 12/05/2015 16:42:36.673     [Error  ] - Component Files not found : model.ecf
+ <1> 12/05/2015 16:42:36.753     [Error  ] - Component Files not found : model.ecf
+ <1> 12/05/2015 16:42:50.642     [Error  ] - Contraseña incorrecta.
+ <1> 12/05/2015 16:42:53.681     [Error  ] - Contraseña incorrecta.
+ <1> 12/05/2015 16:49:50.830     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\CreaCarpeta.bat C:\CE\EMP1\Cuentas\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 12/05/2015 16:49:50.921     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\CreaCarpeta.bat C:\CE\EMP1\Balanza\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 12/05/2015 16:49:50.937     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\CreaCarpeta.bat C:\CE\EMP1\Poliza\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 12/05/2015 16:49:50.952     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\CreaCarpeta.bat C:\CE\EMP1\Procesados\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 12/05/2015 16:49:50.960     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\CreaCarpeta.bat C:\CE\EMP1\Generados\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 12/05/2015 16:53:57.559     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\CreaCarpeta.bat C:\CE\EMP1\Cuentas\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 12/05/2015 16:53:57.579     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\CreaCarpeta.bat C:\CE\EMP1\Balanza\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 12/05/2015 16:53:57.605     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\CreaCarpeta.bat C:\CE\EMP1\Poliza\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 12/05/2015 16:53:57.623     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\CreaCarpeta.bat C:\CE\EMP1\Procesados\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 12/05/2015 16:53:57.635     [Error  ] - File not found: C:\Magic\xpi\3_4\User resources\Components\ContaElec\CreaCarpeta.bat C:\CE\EMP1\Generados\, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.O_AgregarConfiguración.UT_CreaCarpeta
+ <1> 12/08/2015 16:39:29.209     [Error  ] - Component Files not found : model.ecf
+ <1> 12/08/2015 16:39:29.276     [Error  ] - Component Files not found : model.ecf
+ <1> 12/08/2015 16:39:38.737     [Error  ] - Contraseña incorrecta.
+ <1> 12/08/2015 16:39:42.628     [Error  ] - Contraseña incorrecta.
+ <1> 12/08/2015 16:39:46.612     [Error  ] - Contraseña incorrecta.
+ <-1             > 18/08/2015 16:52:09.930     [Error  ] - Component Files not found : model.ecf
+ <-1             > 18/08/2015 16:52:10.049     [Error  ] - Component Files not found : model.ecf
+ <-1             > 18/08/2015 16:52:10.162     [Error  ] - Component Files not found : model.ecf
+ <-1             > 18/08/2015 16:52:10.230     [Error  ] - Component Files not found : model.ecf
+ <551351297392059840> 18/08/2015 16:52:16.360     [Error  ] - Failed to open, data source: Poliza_CompNaci_Fin, program: Browse - Poliza_CompNaci_Fin
+ <308742456117579260> 18/08/2015 16:52:44.218     [Error  ] - Failed to open, data source: Poliza_Enc_Fin, program: Browse - Poliza_Enc_Fin
+ <-1             > 18/08/2015 16:57:31.860     [Error  ] - Component Files not found : model.ecf
+ <-1             > 18/08/2015 16:57:31.981     [Error  ] - Component Files not found : model.ecf
+ <-1             > 18/08/2015 16:57:32.141     [Error  ] - Component Files not found : model.ecf
+ <-1             > 18/08/2015 16:57:32.209     [Error  ] - Component Files not found : model.ecf
+ <-1             > 19/08/2015 13:20:40.356     [Error  ] - Component Files not found : model.ecf
+ <-1             > 19/08/2015 13:20:40.647     [Error  ] - Component Files not found : model.ecf
+ <-1             > 19/08/2015 13:20:41.241     [Error  ] - Component Files not found : model.ecf
+ <-1             > 19/08/2015 13:20:41.313     [Error  ] - Component Files not found : model.ecf
+ <-1             > 20/08/2015 12:17:29.322     [Error  ] - Component Files not found : model.ecf
+ <-1             > 20/08/2015 12:17:29.510     [Error  ] - Component Files not found : model.ecf
+ <-1             > 20/08/2015 12:17:29.824     [Error  ] - Component Files not found : model.ecf
+ <-1             > 20/08/2015 12:17:29.837     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 11:49:17.151     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 11:49:17.336     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 11:49:17.951     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 11:49:18.015     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 12:05:54.260     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 12:05:54.340     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 12:05:54.464     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 12:05:54.544     [Error  ] - Component Files not found : model.ecf
+ <451062440976857090> 24/08/2015 12:37:58.791     [Error  ] - La Clave está duplicada.
+ <264386757583703200> 24/08/2015 13:33:33.401     [Error  ] - Contraseña incorrecta.
+ <550272413753559230> 24/08/2015 13:33:59.888     [Error  ] - Contraseña incorrecta.
+ <-1             > 24/08/2015 17:52:32.950     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 17:52:34.533     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 17:52:34.855     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 17:52:36.296     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 17:56:06.747     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 17:56:08.255     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 17:56:08.472     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 17:56:09.926     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 17:57:26.888     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 17:57:28.415     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 17:57:28.631     [Error  ] - Component Files not found : model.ecf
+ <-1             > 24/08/2015 17:57:30.070     [Error  ] - Component Files not found : model.ecf
+ <-1             > 25/08/2015 09:12:21.867     [Error  ] - Component Files not found : model.ecf
+ <-1             > 25/08/2015 09:12:25.065     [Error  ] - Component Files not found : model.ecf
+ <-1             > 25/08/2015 09:12:26.920     [Error  ] - Component Files not found : model.ecf
+ <-1             > 25/08/2015 09:12:28.746     [Error  ] - Component Files not found : model.ecf
+ <529825080880540480> 25/08/2015 13:16:46.423     [Error  ] - RFC errónea, del digíto 4 al 9 deben ser tipo Numérico
+ <529825080880540480> 25/08/2015 13:16:51.557     [Error  ] - RFC errónea, del digíto 4 al 9 deben ser tipo Numérico
+ <529825080880540480> 25/08/2015 13:17:17.735     [Error  ] - Debe capturar el Monto Total
+ <529825080880540480> 25/08/2015 13:17:27.143     [Error  ] - Debe capturar el Tipo de Cambio
+ <463370586201827520> 25/08/2015 13:21:49.574     [Error  ] - Debe capturar la Moneda
+ <463370586201827520> 25/08/2015 13:21:54.060     [Error  ] - La Moneda no existe
+ <463370586201827520> 25/08/2015 13:22:11.529     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <18440342273113688> 25/08/2015 13:23:07.489     [Error  ] - RFC errónea, del digíto 4 al 9 deben ser tipo Numérico
+ <251861132887514500> 25/08/2015 13:28:20.729     [Error  ] - Invalid number, program: PP_Comprobantes Nacionales.Captura_ComprobantesNacionales
+ <251861132887514500> 25/08/2015 13:28:20.834     [Error  ] - Invalid number, program: PP_Comprobantes Nacionales.Captura_ComprobantesNacionales
+ <251861132887514500> 25/08/2015 13:28:21.197     [Error  ] - Invalid number, program: PP_Comprobantes Nacionales.Captura_ComprobantesNacionales
+ <251861132887514500> 25/08/2015 13:28:25.699     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <251861132887514500> 25/08/2015 13:28:37.050     [Error  ] - El UUID ya existe
+ <482459089672030210> 25/08/2015 13:29:51.909     [Error  ] - El UUID ya existe
+ <470377356556389700> 25/08/2015 13:30:40.587     [Error  ] - El UUID ya existe
+ <470377356556389700> 25/08/2015 13:30:45.474     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <470377356556389700> 25/08/2015 13:30:51.434     [Error  ] - Debe capturar el Monto Total
+ <470377356556389700> 25/08/2015 13:30:53.658     [Error  ] - Debe capturar la Moneda
+ <470377356556389700> 25/08/2015 13:30:57.996     [Error  ] - Debe capturar el Tipo de Cambio
+ <204089513794308160> 25/08/2015 14:06:39.872     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <204089513794308160> 25/08/2015 14:06:48.476     [Error  ] - Debe capturar el Monto Total
+ <204089513794308160> 25/08/2015 14:06:53.064     [Error  ] - Debe capturar la Moneda
+ <204089513794308160> 25/08/2015 14:06:58.752     [Error  ] - Debe capturar el Tipo de Cambio
+ <53419850732324744> 25/08/2015 16:41:54.508     [Error  ] - Constraint failure, data source:  Poliza_CompNacOtro, program: PP_Comprobantes Nacionales Otr.Captura_ComprobantesNacionales.Guardar ComprobanteNacionalOtr
+ <394354824841030910> 25/08/2015 17:01:53.260     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <264852470784444900> 25/08/2015 17:02:07.512     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <429113782112011460> 25/08/2015 17:03:56.926     [Error  ] - Debe capturar el Tipo de Cambio
+ <105755817597834220> 25/08/2015 17:04:37.629     [Error  ] - Invalid number, program: PP_Comprobantes Extranjeros.Captura_ComprobantesExtranjero
+ <105755817597834220> 25/08/2015 17:04:38.850     [Error  ] - Invalid number, program: PP_Comprobantes Extranjeros.Captura_ComprobantesExtranjero
+ <105755817597834220> 25/08/2015 17:04:39.483     [Error  ] - Invalid number, program: PP_Comprobantes Extranjeros.Captura_ComprobantesExtranjero
+ <105755817597834220> 25/08/2015 17:04:39.786     [Error  ] - Invalid number, program: PP_Comprobantes Extranjeros.Captura_ComprobantesExtranjero
+ <105755817597834220> 25/08/2015 17:04:40.010     [Error  ] - Invalid number, program: PP_Comprobantes Extranjeros.Captura_ComprobantesExtranjero
+ <478073157085416130> 25/08/2015 17:20:15.852     [Error  ] - La Moneda no existe
+ <433491202848294020> 25/08/2015 17:21:23.364     [Error  ] - La serie ya existe
+ *********************   Date: 27/08/2015  ********************
+ *********************   Date: 27/08/2015  ********************
+ <-1             > 12:36:36.627     [Error  ] - Component Files not found : model.ecf
+ <-1             > 12:36:36.649     [Error  ] - Component Files not found : model.ecf
+ <390530082239246460> 13:37:51.110     [Action ] -   >>Starts load Batch Task - 'Main Program (ContaElec)' in Query mode (Task Instance: 1)
+ <390530082239246460> 12:37:51.123     [Action ] -   Ends Load Task
+ <390530082239246460> 13:37:51.263     [Action ] -     >>Starts load Online Task - 'test' in Modify mode (Task Instance: 2)
+ <390530082239246460> 12:37:51.263     [Action ] -     Ends Load Task
+ <390530082239246460> 12:37:51.281     [Action ] -     Task Mode Change - Modify
+ <390530082239246460> 12:37:53.811     [Action ] -     >>  Processing Event  [Control Hit]  Control Name :  [test] 
+ <390530082239246460> 12:37:55.255     [Action ] -     >>  Processing Event  [Window Hit]  Control Name :  [ N/A ] 
+ <390530082239246460> 12:37:55.602     [Action ] -     >>  Processing Event  [Esc]  [Exit]  Control Name :  [test] 
+ <390530082239246460> 12:37:55.658     [Action ] -     Starts Closing Online Task - 'test' (Task Instance: 2)
+ <390530082239246460> 12:37:55.721     [Action ] -   <<Ends Close Task
+ <390530082239246460> 12:37:56.608     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <-1             > 12:37:56.610     [Action ] -   Starts Closing Batch Task - 'Main Program (ContaElec)' (Task Instance: 1)
+ <-1             > 12:37:56.610     [Action ] -   <<Ends Close Task
+ <536436752840352960> 13:54:02.904     [Action ] -   >>Starts load Batch Task - 'Main Program (ContaElec)' in Query mode (Task Instance: 3)
+ <536436752840352960> 12:54:02.905     [Action ] -   Ends Load Task
+ <536436752840352960> 13:54:02.915     [Action ] -     >>Starts load Online Task - 'test' in Modify mode (Task Instance: 4)
+ <536436752840352960> 12:54:02.915     [Action ] -     Ends Load Task
+ <536436752840352960> 12:54:04.345     [Action ] -     >>  Processing Event  [Esc]  [Exit]  Control Name :  [test] 
+ <536436752840352960> 12:54:04.345     [Action ] -     Starts Closing Online Task - 'test' (Task Instance: 4)
+ <536436752840352960> 12:54:04.349     [Action ] -   <<Ends Close Task
+ <536436752840352960> 12:54:05.568     [Action ] -   >>  Processing Event  [Exit System]  Control Name :  [ N/A ] 
+ <-1             > 12:54:05.573     [Action ] -   Starts Closing Batch Task - 'Main Program (ContaElec)' (Task Instance: 3)
+ <-1             > 12:54:05.573     [Action ] -   <<Ends Close Task
+ <-1             > 27/08/2015 16:11:09.469     [Error  ] - Component Files not found : model.ecf
+ <-1             > 27/08/2015 16:11:09.648     [Error  ] - Component Files not found : model.ecf
+ <-1             > 27/08/2015 16:11:09.816     [Error  ] - Component Files not found : model.ecf
+ <-1             > 27/08/2015 16:11:09.939     [Error  ] - Component Files not found : model.ecf
+ <-1             > 28/08/2015 13:12:08.989     [Error  ] - Component Files not found : model.ecf
+ <-1             > 28/08/2015 13:12:09.262     [Error  ] - Component Files not found : model.ecf
+ <-1             > 28/08/2015 13:12:09.855     [Error  ] - Component Files not found : model.ecf
+ <-1             > 28/08/2015 13:12:09.968     [Error  ] - Component Files not found : model.ecf
+ <204958296423725280> 28/08/2015 15:25:35.403     [Error  ] - Debe capturar el ID Empresa
+ <204958296423725280> 28/08/2015 15:25:40.332     [Error  ] - Debe capturar el Mes
+ <204958296423725280> 28/08/2015 15:25:43.906     [Error  ] - Debe capturar el Año
+ <204958296423725280> 28/08/2015 15:25:49.493     [Error  ] - Debe capturar el Tipo Solicitud
+ <204958296423725280> 28/08/2015 15:25:51.897     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <279713133371359680> 28/08/2015 15:32:37.330     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <279713133371359680> 28/08/2015 15:32:44.317     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <279713133371359680> 28/08/2015 15:33:01.666     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <279713133371359680> 28/08/2015 15:33:05.317     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <264206356179509950> 28/08/2015 15:33:44.041     [Error  ] - Numeric format is limited to 4.0 digits, program: PP_Poliza EncFinanciero.Captura_Poliza EncFinanciero
+ <542763202119871040> 28/08/2015 15:37:33.465     [Error  ] - Numeric format is limited to 4.0 digits, program: PP_Poliza EncFinanciero.Captura_Poliza EncFinanciero
+ <-1             > 01/09/2015 11:43:59.960     [Error  ] - Component Files not found : model.ecf
+ <-1             > 01/09/2015 11:44:00.244     [Error  ] - Component Files not found : model.ecf
+ <-1             > 01/09/2015 11:44:01.735     [Error  ] - Component Files not found : model.ecf
+ <-1             > 01/09/2015 11:44:01.869     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:28:07.168     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:28:07.362     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:28:07.716     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:28:07.779     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:32:40.046     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:32:40.166     [Error  ] - Cabinet File Name cannot be empty.
+ <-1             > 03/09/2015 16:32:40.214     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:32:40.286     [Error  ] - Cabinet File Name cannot be empty.
+ <-1             > 03/09/2015 16:32:40.497     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:32:40.559     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:32:55.837     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:32:55.868     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:33:45.180     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:33:45.477     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:34:15.057     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:34:15.443     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:34:15.661     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:34:15.990     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:35:17.965     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:35:18.271     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:35:18.528     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 16:35:18.853     [Error  ] - Component Files not found : model.ecf
+ <550902126791812800> 03/09/2015 16:52:01.582     [Error  ] - Invalid number, program: PP_Cheque.Captura_Cheque
+ <350950497621312830> 03/09/2015 17:12:25.157     [Error  ] - Debe capturar el ID Empresa
+ <350950497621312830> 03/09/2015 17:12:28.739     [Error  ] - La Empresa no existe
+ <350950497621312830> 03/09/2015 17:12:32.184     [Error  ] - Debe capturar el Mes
+ <429062654505449920> 03/09/2015 17:18:18.389     [Error  ] - Debe capturar el ID Empresa
+ <429062654505449920> 03/09/2015 17:18:22.212     [Error  ] - Debe capturar el Mes
+ <429062654505449920> 03/09/2015 17:18:29.856     [Error  ] - El año no es válido
+ <429062654505449920> 03/09/2015 17:18:34.784     [Error  ] - Debe capturar el Tipo Solicitud
+ <429062654505449920> 03/09/2015 17:18:42.118     [Error  ] - El Tipo de solicitud no existe
+ <429062654505449920> 03/09/2015 17:18:58.781     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <429062654505449920> 03/09/2015 17:19:06.361     [Error  ] - Debe capturar el Concepto
+ <480621798237636100> 03/09/2015 17:21:43.198     [Error  ] - Bad date, program: PP_Poliza EncFinanciero.Captura_Poliza EncFinanciero
+ <480621798237636100> 03/09/2015 17:21:46.260     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <201569607633306500> 03/09/2015 17:45:57.855     [Error  ] - Debe capturar el no de Cheque
+ <201569607633306500> 03/09/2015 17:46:03.623     [Error  ] - Debe capturar el Banco Emisor Nacional
+ <201569607633306500> 03/09/2015 17:46:05.194     [Error  ] - Debe capturar el Banco Emisor Nacional
+ <-1             > 03/09/2015 17:50:38.512     [Error  ] - Component Files not found : model.ecf
+ <-1             > 03/09/2015 17:50:38.834     [Error  ] - Component Files not found : model.ecf
+ <507304623831072960> 03/09/2015 17:51:12.597     [Error  ] - Debe capturar el no de Cheque
+ <507304623831072960> 03/09/2015 17:51:20.092     [Error  ] - Debe capturar el Banco Emisor Nacional
+ <507304623831072960> 03/09/2015 17:51:26.240     [Error  ] - Debe capturar el Banco Emisor Extranjero
+ <507304623831072960> 03/09/2015 17:51:30.303     [Error  ] - El Banco Emisor Extranjero no existe
+ <507304623831072960> 03/09/2015 17:51:33.113     [Error  ] - El Banco Emisor Extranjero no existe
+ <507304623831072960> 03/09/2015 17:51:49.526     [Error  ] - Debe capturar el beneficiario
+ <507304623831072960> 03/09/2015 17:51:57.644     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <507304623831072960> 03/09/2015 17:52:05.629     [Error  ] - Debe capturar el Monto Total
+ <507304623831072960> 03/09/2015 17:52:08.751     [Error  ] - Debe capturar la Moneda
+ <507304623831072960> 03/09/2015 17:52:16.474     [Error  ] - La Moneda no existe
+ <507304623831072960> 03/09/2015 17:52:20.501     [Error  ] - Debe capturar el Tipo de Cambio
+ <-1             > 04/09/2015 16:52:18.208     [Error  ] - Component Files not found : model.ecf
+ <-1             > 04/09/2015 16:52:19.324     [Error  ] - Component Files not found : model.ecf
+ <-1             > 04/09/2015 16:52:19.659     [Error  ] - Component Files not found : model.ecf
+ <-1             > 04/09/2015 16:52:20.023     [Error  ] - Component Files not found : model.ecf
+ <-1             > 04/09/2015 17:22:12.364     [Error  ] - Component Files not found : model.ecf
+ <-1             > 04/09/2015 17:22:12.698     [Error  ] - Component Files not found : model.ecf

@@ -1,0 +1,12 @@
+
+[MAGIC_DATABASES]
+miContaXML = DBMS, 21, miContaXML, , %BD_Server%, , %BD_User%, %BD_Pass%,+ NoMagicRecordLock, DontChangeFileInToolkit, CheckDefinition, NoCheckKey, +
+NoFileLocks, , , CheckExist, 0, , NoAS400SrvrSort,
+
+[MAGIC_LOGICAL_NAMES]
+ArchivosTEMP = D:\Magic\xpi34\User resources\Components\ContaElec\Temp\
+contaelec = D:\Magic\xpi34\User resources\Components\ContaElec\
+support = D:\Magic\xpi34\SUPPORT\
+BD_Server = (local)
+BD_User = miconta
+BD_Pass = M1cont@

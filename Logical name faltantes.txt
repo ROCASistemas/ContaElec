@@ -1,0 +1,5 @@
+(OK) %Workingdir%Images\miContaXML.png
+%BATabreFile%
+(OK) "Translate('%contaelec%')&amp;'CreaCarpeta.bat'"
+(OK) Translate('%ArchivosTEMP%')"/>
+(OK) %7zip%

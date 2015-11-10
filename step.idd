@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<DAM_Parameters Name="ContaElec" XSDRootElement="CONTAELEC">
+
+  <Method>
+    <Code>1</Code>
+    <Name>ReportesPDF</Name>
+    <PublicName>ReportesPDF</PublicName>
+    <Description>Metodo para Generar los Reportes PDF</Description>
+    <OrderIndex>10</OrderIndex>
+    <Parameter>
+      <ID>1</ID>
+      <Name>Tipo_Documento</Name>
+      <XSDElementName>Tipo_Documento</XSDElementName>
+      <Type>N</Type>
+      <Picture>1</Picture>
+      <InOut>I</InOut>
+      <Mandatory>1</Mandatory>
+      <TooltipDescription>Tipo_Documento</TooltipDescription>
+      <ValueSelectionType>Combo</ValueSelectionType>
+      <ItemList>1,2,3</ItemList>
+      <DisplayList>Catalago Cuentas,Balanza Comprobacion,Polizas Contables</DisplayList>
+      <LinkedParameterID>0</LinkedParameterID>
+      <DisplaySequenceID>1</DisplaySequenceID>
+      <Visibility>0</Visibility>
+      <DefaultValue>1</DefaultValue>
+      <LogicalNameSupport>0</LogicalNameSupport>
+    </Parameter>
+    <Parameter>
+      <ID>2</ID>
+      <Name>Ruta_Archivos</Name>
+      <XSDElementName>Ruta_Archivos</XSDElementName>
+      <Type>A</Type>
+      <Picture>255</Picture>
+      <InOut>I</InOut>
+      <Mandatory>1</Mandatory>
+      <TooltipDescription>Ruta_Archivos</TooltipDescription>
+      <ValueSelectionType>EA</ValueSelectionType>
+      <DisplaySequenceID>2</DisplaySequenceID>
+      <Visibility>0</Visibility>
+      <DefaultValue/>
+      <LogicalNameSupport>0</LogicalNameSupport>
+    </Parameter>
+    <Parameter>
+      <ID>3</ID>
+      <Name>Estatus_PDF</Name>
+      <XSDElementName>Estatus_PDF</XSDElementName>
+      <Type>N</Type>
+      <Picture>1</Picture>
+      <InOut>O</InOut>
+      <Mandatory>0</Mandatory>
+      <TooltipDescription>Estatus_PDF</TooltipDescription>
+      <ValueSelectionType>Picklist</ValueSelectionType>
+      <DisplaySequenceID>3</DisplaySequenceID>
+      <Visibility>0</Visibility>
+      <DefaultValue/>
+      <LogicalNameSupport>0</LogicalNameSupport>
+    </Parameter>
+  </Method>
+
+  <UserComponentDefinition>
+    <Name>ContaElec</Name>
+    <Description>Este componente es para generar los reportes PDF de los archivos XML</Description>
+    <Icon>C:\Magic\xpi\3_4\icons\miContaXML.bmp</Icon>
+    <Group>User Components</Group>
+    <TransactionAbility>0</TransactionAbility>
+    <SupportedInterfaces>1,1,0</SupportedInterfaces>
+    <ComponentType>2</ComponentType>
+    <ClassType>1</ClassType>
+    <Trigger_Step_Both>S</Trigger_Step_Both>
+    <default_interface>2</default_interface>
+    <ResourceType>0</ResourceType>
+    <DDAM_ProgName/>
+    <DXML_ProgName/>
+    <ConfigModule>ContaElec.ecf</ConfigModule>
+    <AMGSourceName/>
+    <AMG_ECFName/>
+  </UserComponentDefinition>
+
+  <Struct_ErrorsList></Struct_ErrorsList>
+
+</DAM_Parameters>

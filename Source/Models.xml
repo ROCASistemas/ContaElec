@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="11009"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="48"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object id="1" name="B_aAgregarZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aAgregar"/>
+              <Format id="82" valUnicode="\Agregar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="2" name="B_aModificarZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aModificar"/>
+              <Format id="82" valUnicode="Modificar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="3" name="B_aBorrarZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aBorrar"/>
+              <Format id="82" valUnicode="Borrar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="4" name="B_aImportarZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aImportar"/>
+              <Format id="82" valUnicode="Importar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="B_aReporteZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aReporte"/>
+              <Format id="82" valUnicode="Reporte"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="B_aSalirExit">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aSalir"/>
+              <Format id="82" valUnicode="Salir"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="14"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="7" name="B_aGuardarZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aGuardar"/>
+              <Format id="82" valUnicode="Guardar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="8" name="B_aCancelarExit">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aCancelar"/>
+              <Format id="82" valUnicode="\Cancelar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="14"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="9" name="B_aBancoZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aBanco"/>
+              <Format id="82" valUnicode="Banco"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="10" name="B_aMetodoPagoZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aMetodoPago"/>
+              <Format id="82" valUnicode="Método de Pago"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="11" name="B_aMonedaZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aMoneda"/>
+              <Format id="82" valUnicode="Moneda"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="12" name="B_aCodigoAgrupadorZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aCodigoAgrupador"/>
+              <Format id="82" valUnicode="Código \Agrupador"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="13" name="B_aCuentasEmpresaZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aCuentasEmpresa"/>
+              <Format id="82" valUnicode="Cuentas Empresa"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="14" name="B_aUsuariosZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aUsuarios"/>
+              <Format id="82" valUnicode="\Usuarios"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="15" name="CB_nPerfil">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="1"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_COMBOBOX">
+              <ItemsList id="45" valUnicode="1,2,3"/>
+              <DisplayList id="303" valUnicode="Supervisor,Administrador, Configurador"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_COMBOBOX">
+              <ItemsList id="45" valUnicode="1,2,3"/>
+              <DisplayList id="303" valUnicode="Supervisor,Administrador, Configurador"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <BrowserTable id="163">
+            <PropertyList model="CTRL_BROWSER_COMBOBOX">
+              <ItemsList id="45" valUnicode="1,2,3"/>
+              <DisplayList id="303" valUnicode="Supervisor,Administrador, Configurador"/>
+            </PropertyList>
+          </BrowserTable>
+          <_Dec id="181"/>
+          <_Whole id="182" val="1"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="16" name="CB_aNaturaleza">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_COMBOBOX">
+              <ItemsList id="45" valUnicode="A,D"/>
+              <DisplayList id="303" valUnicode="Acredora,Deudora"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_COMBOBOX">
+              <ItemsList id="45" valUnicode="A,D"/>
+              <DisplayList id="303" valUnicode="Acredora,Deudora"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <BrowserTable id="163">
+            <PropertyList model="CTRL_BROWSER_COMBOBOX">
+              <ItemsList id="45" valUnicode="A,D"/>
+              <DisplayList id="303" valUnicode="Acredora,Deudora"/>
+            </PropertyList>
+          </BrowserTable>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="17" name="B_aSeleccionarZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aSeleccionar"/>
+              <Format id="82" valUnicode="Seleccionar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="18" name="B_aCatZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aCat"/>
+              <Format id="82" valUnicode="..."/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="19" name="B_aAceptarZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aAceptar"/>
+              <Format id="82" valUnicode="\Aceptar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="20" name="CB_TipoDocto">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_COMBOBOX">
+              <ItemsList id="45" valUnicode="C,B,P"/>
+              <DisplayList id="303" valUnicode="Cuentas, Balanza, Pólizas"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_COMBOBOX">
+              <ItemsList id="45" valUnicode="C,B,P"/>
+              <DisplayList id="303" valUnicode="Cuentas, Balanza, Pólizas"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="21" name="CB_TipoEnvio">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_COMBOBOX">
+              <ItemsList id="45" valUnicode="N,C"/>
+              <DisplayList id="303" valUnicode="Normal,Complementaria"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_COMBOBOX">
+              <ItemsList id="45" valUnicode="N,C"/>
+              <DisplayList id="303" valUnicode="Normal,Complementaria"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="22" name="CB_Mes">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="##"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_COMBOBOX">
+              <ItemsList id="45" valUnicode="01,02,03,04,05,06,07,08,09,10,11,12"/>
+              <DisplayList id="303" valUnicode="Enero, Febrero, Marzo, Abril,Mayo, Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diiciembre"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_COMBOBOX">
+              <ItemsList id="45" valUnicode="01,02,03,04,05,06,07,08,09,10,11,12"/>
+              <DisplayList id="303" valUnicode="Enero, Febrero, Marzo, Abril,Mayo, Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="23" name="B_aXMLZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aXML"/>
+              <Format id="82" valUnicode="XML"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="24" name="B_aPDFZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aPDF"/>
+              <Format id="82" valUnicode="PDF"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="25" name="CB_EstatusRegistro">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_COMBOBOX">
+              <ItemsList id="45" valUnicode="A,B"/>
+              <DisplayList id="303" valUnicode="Alta,Baja"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_COMBOBOX">
+              <ItemsList id="45" valUnicode="A,B"/>
+              <DisplayList id="303" valUnicode="Alta,Baja"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="26" name="B_aCancelarZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aCancelar"/>
+              <Format id="82" valUnicode="\Cancelar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="27" name="B_aCatalogosZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aCatalogos"/>
+              <Format id="82" valUnicode="\Catálogos S\AT"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="28" name="B_aConsultaZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aConsulta"/>
+              <Format id="82" valUnicode="\Consulta Documentos"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="29" name="A_RFC">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U3#6U3A"/>
+          <Size id="174" val="12"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="30" name="Calendario">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <SelectProgram comp="-1" id="58" obj="76"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="31" name="B_aAgregarZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aAgregar"/>
+              <Format id="82" valUnicode="\Agregar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="32" name="B_aModificarZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aModificar"/>
+              <Format id="82" valUnicode="Modificar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="33" name="B_aBorrarZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aBorrar"/>
+              <Format id="82" valUnicode="Borrar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="34" name="B_aSalirExit">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aSalir"/>
+              <Format id="82" valUnicode="Salir"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="14"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="35" name="B_aGuardarZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aGuardar"/>
+              <Format id="82" valUnicode="Guardar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="36" name="B_aCancelarExit">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aCancelar"/>
+              <Format id="82" valUnicode="\Cancelar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="14"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="37" name="B_aBancoZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aBanco"/>
+              <Format id="82" valUnicode="Banco"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="38" name="B_aMetodoPagoZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aMetodoPago"/>
+              <Format id="82" valUnicode="Método de Pago"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="39" name="B_aMonedaZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aMoneda"/>
+              <Format id="82" valUnicode="Moneda"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="40" name="B_aCodigoAgrupadorZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aCodigoAgrupador"/>
+              <Format id="82" valUnicode="Código \Agrupador"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="41" name="B_aCuentasEmpresaZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aCuentasEmpresa"/>
+              <Format id="82" valUnicode="Cuentas Empresa"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="42" name="B_aUsuariosZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aUsuarios"/>
+              <Format id="82" valUnicode="\Usuarios"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="43" name="B_aSeleccionarZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aSeleccionar"/>
+              <Format id="82" valUnicode="Seleccionar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="44" name="B_aCatZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aCat"/>
+              <Format id="82" valUnicode="..."/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="45" name="B_aXMLZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aXML"/>
+              <Format id="82" valUnicode="XML"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="46" name="B_aPDFZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aPDF"/>
+              <Format id="82" valUnicode="PDF"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="47" name="B_aConsultaZoom">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="B_aConsulta"/>
+              <Format id="82" valUnicode="\Consulta Documentos"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="48" name="A_RFC">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U3#6U3A"/>
+          <Size id="174" val="12"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>

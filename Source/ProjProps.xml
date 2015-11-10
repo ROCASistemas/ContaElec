@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="11009"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="0"/>
+  </Header>
+
+  <ProjectProperties>
+    <ProjectData>
+      <GUID val="{DF791F6C-D384-451A-A573-BA6B8419C9BF}"/>
+      <RemoteFlowMonitorRight comp="-1"/>
+      <ApplColorDefinitionFile val="%contaelec%clr_rnt.eng"/>
+      <ApplFontDefinitionFile val="%contaelec%fnt_rnt.eng"/>
+      <NulArithmetic val="N"/>
+      <WindowSortBy val="R"/>
+      <_SystemPulldownMenu comp="-1"/>
+      <_SystemContextMenu comp="-1"/>
+      <ExposeComment val="N"/>
+      <ProjectName val="ContaElec"/>
+    </ProjectData>
+  </ProjectProperties>
+
+</Application>

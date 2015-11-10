@@ -1,0 +1,18 @@
+       // Magic ECI Generator                                          //
+       // Created by   :----No User logged in----         //
+       // Created Date :24/03/2015 Time :14:54:26              //
+       // File Name    :D:\Magic\xpi34\User Resources\Components\ContaElec\ContaElec.eci         //
+COMPID = N54263876347229
+NAME = "ContaElec"
+DESC = "Este componente es para generar los reportes PDF de los archivos XML"
+COMPTYPE = "eDeveloper"
+IMMED = "N"
+PROJECTFILE = "ContaElec"
+CABINETFILE = "D:\Magic\xpi34\User Resources\Components\ContaElec\ContaElec.ecf"
+VRSN = 1.2
+HLPFILE = ""
+HLPKEY = ""
+
+PRG=PUBLIC="ReportesPDF" RMK="" HELPKEY=""
+
+[ENVIRONMENT]

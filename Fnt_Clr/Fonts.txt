@@ -1,0 +1,12 @@
+Fuente 1 Reporte FE,Microsoft Sans Serif,8,0,0
+Fuente 2 Reporte FE,Microsoft Sans Serif,8,0,0,Bold
+Letra Pequeña Mobile,Microsoft Sans Serif,7,0,0
+Letra Pequeña Mobile Negrita,Microsoft Sans Serif,7,0,0,Bold
+Courier Pequeña HUMAN,Courier New,8,0,0
+Courier Pequeña HUMAN,Courier New,8,0,0
+Arial de 8 negrita,Arial,8,0,0,Bold
+Arial de 7 negrita,Arial,7,0,0,Bold
+Arial de 7 Normail,Arial,7,0,0
+Arial de 14 Normal,Arial,14,0,0,Bold
+Letra superpqueña observacione,Microsoft Sans Serif,6,0,0
+Sans Serif 10 Normal,Microsoft Sans Serif,10,0,0
