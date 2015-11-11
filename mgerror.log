@@ -1445,3 +1445,13 @@
  <439640060598747650> 11/11/2015 10:57:26.557     [Error  ] - Contraseña incorrecta.
  <439640060598747650> 11/11/2015 10:57:43.292     [Error  ] - Ya existe el registro
 >>>>>>> 450a274c1daf6864d7993a2f02adb18644094f09
+ <-1             > 11/11/2015 11:17:30.622     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:17:32.094     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:17:33.048     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:17:33.249     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:18:44.123     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:18:45.788     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:18:46.107     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:18:47.553     [Error  ] - Component Files not found : model.ecf
+ <252830918437112610> 11/11/2015 12:20:08.642     [Error  ] - Subform control refers to a program/task that is not online., program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Poliza EncFinanciero.PP_Encabezado Poliza_Trans.Transacciones.P_DetalleTransaccionPoliza
+ <252830918437112610> 11/11/2015 12:20:08.714     [Error  ] - Subform control refers to a program/task that is not online., program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Poliza EncFinanciero.PP_Encabezado Poliza_Trans.Transacciones.P_DetalleTransaccionPoliza

@@ -208,7 +208,7 @@
       <SourceFileTimeStamp _date="735912" _time="75840" date="10/11/2015" time="21:04:00"/>
     </Program>
     <Program>
-      <Header Description="PP_CatalogoEmpresas" ISN_2="1" LastIsn="13" id="12">
+      <Header Description="PP_CatalogoEmpresas" ISN_2="1" LastIsn="1" id="12">
         <Public val="CatEmpresa"/>
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
@@ -278,7 +278,7 @@
       <SourceFileTimeStamp _date="735912" _time="75840" date="10/11/2015" time="21:04:00"/>
     </Program>
     <Program>
-      <Header Description="PP_MetodoPago" ISN_2="1" LastIsn="5" id="15">
+      <Header Description="PP_MetodoPago" ISN_2="1" LastIsn="1" id="15">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -371,38 +371,7 @@
         <DotNetObjectExists val="N"/>
         <LastModified _date="735913" _time="35910" date="11/11/2015" time="09:58:30"/>
       </Header>
-<<<<<<< HEAD
       <SourceFileTimeStamp _date="735913" _time="57510" date="11/11/2015" time="15:58:30"/>
-    </Program>
-    <Program>
-      <Header Description="PP_CuentasEmpresa_ORI" ISN_2="1" LastIsn="1" id="127">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <TSK_PARAMS val="6"/>
-          <ParametersCount val="6"/>
-          <ParametersAttributes>
-            <Attr MgAttr="N"/>
-            <Attr MgAttr="A"/>
-            <Attr MgAttr="A"/>
-            <Attr MgAttr="A"/>
-            <Attr MgAttr="A"/>
-            <Attr MgAttr="A"/>
-          </ParametersAttributes>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="B"/>
-        <External val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified _date="735912" _time="33190" date="10/11/2015" time="09:13:10"/>
-      </Header>
-      <SourceFileTimeStamp _date="735912" _time="75840" date="10/11/2015" time="21:04:00"/>
-=======
-      <SourceFileTimeStamp _date="735912" _time="67662" date="10/11/2015" time="18:47:42"/>
->>>>>>> 450a274c1daf6864d7993a2f02adb18644094f09
     </Program>
     <Program>
       <Header Description="PP_TipoSolicitud" ISN_2="1" LastIsn="1" id="50">
@@ -472,7 +441,7 @@
       <SourceFileTimeStamp _date="735912" _time="85670" date="10/11/2015" time="23:47:50"/>
     </Program>
     <Program>
-      <Header Description="PP_Balanza" ISN_2="5" LastIsn="142" id="61">
+      <Header Description="PP_Balanza" ISN_2="5" LastIsn="5" id="61">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -493,11 +462,7 @@
         <DotNetObjectExists val="N"/>
         <LastModified _date="735913" _time="39435" date="11/11/2015" time="10:57:15"/>
       </Header>
-<<<<<<< HEAD
-      <SourceFileTimeStamp _date="735912" _time="75840" date="10/11/2015" time="21:04:00"/>
-=======
-      <SourceFileTimeStamp _date="735913" _time="60287" date="11/11/2015" time="16:44:47"/>
->>>>>>> 450a274c1daf6864d7993a2f02adb18644094f09
+      <SourceFileTimeStamp _date="735913" _time="62078" date="11/11/2015" time="17:14:38"/>
     </Program>
     <Program>
       <Header Description="******************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="70">
@@ -537,9 +502,9 @@
         <External val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="735913" _time="39014" date="11/11/2015" time="10:50:14"/>
+        <LastModified _date="735913" _time="46185" date="11/11/2015" time="12:49:45"/>
       </Header>
-      <SourceFileTimeStamp _date="735913" _time="60614" date="11/11/2015" time="16:50:14"/>
+      <SourceFileTimeStamp _date="735913" _time="67785" date="11/11/2015" time="18:49:45"/>
     </Program>
     <Program>
       <Header Description="PP_Encabezado Poliza_Trans" ISN_2="1" LastIsn="1" id="55">
@@ -632,68 +597,6 @@
         <LastModified _date="735862" _time="56184" date="21/09/2015" time="15:36:24"/>
       </Header>
       <SourceFileTimeStamp _date="735912" _time="75840" date="10/11/2015" time="21:04:00"/>
-    </Program>
-    <Program>
-      <Header Description="PP_Cheque" ISN_2="1" LastIsn="6" id="68">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <TSK_PARAMS val="2"/>
-          <ParametersCount val="2"/>
-          <ParametersAttributes>
-            <Attr MgAttr="U"/>
-            <Attr MgAttr="U"/>
-          </ParametersAttributes>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-<<<<<<< HEAD
-        <LastModified _date="735912" _time="58003" date="10/11/2015" time="16:06:43"/>
-      </Header>
-      <SourceFileTimeStamp _date="735912" _time="79604" date="10/11/2015" time="22:06:44"/>
-    </Program>
-    <Program>
-      <Header Description="PP_Transferencia" ISN_2="1" LastIsn="6" id="77">
-=======
-        <LastModified _date="735912" _time="58468" date="10/11/2015" time="16:14:28"/>
-      </Header>
-      <SourceFileTimeStamp _date="735912" _time="80068" date="10/11/2015" time="22:14:28"/>
-    </Program>
-    <Program>
-      <Header Description="PP_Transferencia" ISN_2="1" LastIsn="7" id="77">
->>>>>>> 450a274c1daf6864d7993a2f02adb18644094f09
-        <Comment val="Falta probar"/>
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <TSK_PARAMS val="2"/>
-          <ParametersCount val="2"/>
-          <ParametersAttributes>
-            <Attr MgAttr="U"/>
-            <Attr MgAttr="U"/>
-          </ParametersAttributes>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="O"/>
-        <External val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-<<<<<<< HEAD
-        <LastModified _date="735912" _time="55522" date="10/11/2015" time="15:25:22"/>
-      </Header>
-      <SourceFileTimeStamp _date="735912" _time="77123" date="10/11/2015" time="21:25:23"/>
-=======
-        <LastModified _date="735912" _time="58969" date="10/11/2015" time="16:22:49"/>
-      </Header>
-      <SourceFileTimeStamp _date="735912" _time="80972" date="10/11/2015" time="22:29:32"/>
->>>>>>> 450a274c1daf6864d7993a2f02adb18644094f09
     </Program>
     <Program>
       <Header Description="PP_Otro Metodo" ISN_2="1" LastIsn="1" id="80">
@@ -1243,7 +1146,7 @@
       <SourceFileTimeStamp _date="735912" _time="75840" date="10/11/2015" time="21:04:00"/>
     </Program>
     <Program>
-      <Header Description="PS_XMLCuentas" ISN_2="2" LastIsn="37" id="104">
+      <Header Description="PS_XMLCuentas" ISN_2="2" LastIsn="2" id="104">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -1267,7 +1170,7 @@
       <SourceFileTimeStamp _date="735912" _time="75840" date="10/11/2015" time="21:04:00"/>
     </Program>
     <Program>
-      <Header Description="PS_XMLBalanzaComprobacion" ISN_2="2" LastIsn="37" id="106">
+      <Header Description="PS_XMLBalanzaComprobacion" ISN_2="2" LastIsn="2" id="106">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -1295,7 +1198,7 @@
       <SourceFileTimeStamp _date="735912" _time="75840" date="10/11/2015" time="21:04:00"/>
     </Program>
     <Program>
-      <Header Description="PS_XMLPoliza" ISN_2="2" LastIsn="72" id="108">
+      <Header Description="PS_XMLPoliza" ISN_2="2" LastIsn="2" id="108">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -1343,6 +1246,42 @@
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
         <LastModified _date="735897" _time="54789" date="26/10/2015" time="15:13:09"/>
+      </Header>
+      <SourceFileTimeStamp _date="735912" _time="75840" date="10/11/2015" time="21:04:00"/>
+    </Program>
+    <Program>
+      <Header Description="Rellena Guiones UUID" ISN_2="1" LastIsn="1" id="124">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="735899" _time="64473" date="28/10/2015" time="17:54:33"/>
+      </Header>
+      <SourceFileTimeStamp _date="735912" _time="75840" date="10/11/2015" time="21:04:00"/>
+    </Program>
+    <Program>
+      <Header Description="Prueba Verify Abre Carpeta" ISN_2="1" LastIsn="1" id="126">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="735908" _time="62205" date="06/11/2015" time="17:16:45"/>
       </Header>
       <SourceFileTimeStamp _date="735912" _time="75840" date="10/11/2015" time="21:04:00"/>
     </Program>
