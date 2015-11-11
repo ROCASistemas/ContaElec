@@ -371,34 +371,7 @@
         <DotNetObjectExists val="N"/>
         <LastModified _date="735912" _time="46062" date="10/11/2015" time="12:47:42"/>
       </Header>
-      <SourceFileTimeStamp _date="735912" _time="67406" date="10/11/2015" time="18:43:26"/>
-    </Program>
-    <Program>
-      <Header Description="PP_CuentasEmpresa_ORI" ISN_2="1" LastIsn="1" id="127">
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <TSK_PARAMS val="6"/>
-          <ParametersCount val="6"/>
-          <ParametersAttributes>
-            <Attr MgAttr="N"/>
-            <Attr MgAttr="A"/>
-            <Attr MgAttr="A"/>
-            <Attr MgAttr="A"/>
-            <Attr MgAttr="A"/>
-            <Attr MgAttr="A"/>
-          </ParametersAttributes>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="B"/>
-        <External val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified _date="735912" _time="33190" date="10/11/2015" time="09:13:10"/>
-      </Header>
-      <SourceFileTimeStamp _date="735912" _time="54790" date="10/11/2015" time="15:13:10"/>
+      <SourceFileTimeStamp _date="735912" _time="67662" date="10/11/2015" time="18:47:42"/>
     </Program>
     <Program>
       <Header Description="PP_TipoSolicitud" ISN_2="1" LastIsn="1" id="50">
@@ -468,14 +441,14 @@
       <SourceFileTimeStamp _date="735907" _time="82618" date="05/11/2015" time="22:56:58"/>
     </Program>
     <Program>
-      <Header Description="PP_Balanza" ISN_2="5" LastIsn="125" id="61">
+      <Header Description="PP_Balanza" ISN_2="5" LastIsn="142" id="61">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
         <ReturnValue>
           <ReturnValueAttr/>
           <TSK_PARAMS val="3"/>
-          <ParametersCount val="3"/>
+          <ParametersCount val="5"/>
           <ParametersAttributes>
             <Attr MgAttr="N"/>
             <Attr MgAttr="A"/>
@@ -487,9 +460,9 @@
         <External val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="735911" _time="57675" date="09/11/2015" time="16:01:15"/>
+        <LastModified _date="735913" _time="39435" date="11/11/2015" time="10:57:15"/>
       </Header>
-      <SourceFileTimeStamp _date="735911" _time="79275" date="09/11/2015" time="22:01:15"/>
+      <SourceFileTimeStamp _date="735913" _time="60287" date="11/11/2015" time="16:44:47"/>
     </Program>
     <Program>
       <Header Description="******************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="70">
@@ -626,7 +599,7 @@
       <SourceFileTimeStamp _date="735862" _time="74186" date="21/09/2015" time="20:36:26"/>
     </Program>
     <Program>
-      <Header Description="PP_Cheque" ISN_2="1" LastIsn="1" id="68">
+      <Header Description="PP_Cheque" ISN_2="1" LastIsn="6" id="68">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -644,12 +617,12 @@
         <External val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="735907" _time="49954" date="05/11/2015" time="13:52:34"/>
+        <LastModified _date="735912" _time="58468" date="10/11/2015" time="16:14:28"/>
       </Header>
-      <SourceFileTimeStamp _date="735907" _time="71556" date="05/11/2015" time="19:52:36"/>
+      <SourceFileTimeStamp _date="735912" _time="80068" date="10/11/2015" time="22:14:28"/>
     </Program>
     <Program>
-      <Header Description="PP_Transferencia" ISN_2="1" LastIsn="1" id="77">
+      <Header Description="PP_Transferencia" ISN_2="1" LastIsn="7" id="77">
         <Comment val="Falta probar"/>
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
@@ -668,9 +641,9 @@
         <External val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="735862" _time="56387" date="21/09/2015" time="15:39:47"/>
+        <LastModified _date="735912" _time="58969" date="10/11/2015" time="16:22:49"/>
       </Header>
-      <SourceFileTimeStamp _date="735862" _time="74388" date="21/09/2015" time="20:39:48"/>
+      <SourceFileTimeStamp _date="735912" _time="80972" date="10/11/2015" time="22:29:32"/>
     </Program>
     <Program>
       <Header Description="PP_Otro Metodo" ISN_2="1" LastIsn="1" id="80">
@@ -1244,7 +1217,7 @@
       <SourceFileTimeStamp _date="735871" _time="27926" date="30/09/2015" time="07:45:26"/>
     </Program>
     <Program>
-      <Header Description="PS_XMLBalanzaComprobacion" ISN_2="2" LastIsn="2" id="106">
+      <Header Description="PS_XMLBalanzaComprobacion" ISN_2="2" LastIsn="37" id="106">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -1272,7 +1245,7 @@
       <SourceFileTimeStamp _date="735871" _time="27068" date="30/09/2015" time="07:31:08"/>
     </Program>
     <Program>
-      <Header Description="PS_XMLPoliza" ISN_2="2" LastIsn="2" id="108">
+      <Header Description="PS_XMLPoliza" ISN_2="2" LastIsn="72" id="108">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>

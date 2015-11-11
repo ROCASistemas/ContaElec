@@ -12,14 +12,14 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="PP_Balanza" ISN_2="5" LastIsn="125" id="61">
+        <Header Description="PP_Balanza" ISN_2="5" LastIsn="142" id="61">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
             <ReturnValueAttr/>
             <TSK_PARAMS val="3"/>
-            <ParametersCount val="3"/>
+            <ParametersCount val="5"/>
             <ParametersAttributes>
               <Attr MgAttr="N"/>
               <Attr MgAttr="A"/>
@@ -31,9 +31,9 @@
           <External val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="735911" _time="57675" date="09/11/2015" time="16:01:15"/>
+          <LastModified _date="735913" _time="39435" date="11/11/2015" time="10:57:15"/>
         </Header>
-        <ItemIsn val="55"/>
+        <ItemIsn val="62"/>
         <Resource>
           <Columns>
             <Column id="21" name="E_nClaveEmpresa">
@@ -141,8 +141,29 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
+            <Column id="52" name="CHG_REASON_v_aTipoSolicitud">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="2"/>
+                <StoredAs id="173" val="1"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="2"/>
+                <_Negative id="192"/>
+              </PropertyList>
+            </Column>
+            <Column id="53" name="CHG_PRV_v_aTipoSolicitud">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="U"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="1"/>
+                <_Flip id="194"/>
+                <PartOfDatetime id="244"/>
+                <PartOfDataview id="449"/>
+              </PropertyList>
+            </Column>
           </Columns>
-          <ColumnsLastIsn val="47"/>
+          <ColumnsLastIsn val="54"/>
         </Resource>
         <Information>
           <Key>
@@ -582,6 +603,71 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="9" propagate="78">
+            <Level val="V"/>
+            <Type val="C"/>
+            <_DspTemplate val="0"/>
+            <FieldID val="6"/>
+            <_HeaderPosition val="20"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <_TotalVariabls val="2"/>
+            <_TotalVirtuals val="2"/>
+            <PRM_LEN val="2"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Select FieldID="60" FlowIsn="206" id="60">
+                  <Column val="12"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="61" FlowIsn="207" id="61">
+                  <Column val="13"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="208">
+                  <FieldID val="44"/>
+                  <WithValue val="7"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition Exp="8"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="209">
+                  <FieldID val="44"/>
+                  <WithValue val="9"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition Exp="10"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="89" _last_test_id="104" id="2">
@@ -737,7 +823,7 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="44"/>
                 </Model>
-                <Left id="21" val="273"/>
+                <Left id="21" val="271"/>
                 <Top id="22" val="56"/>
                 <Width id="23" val="60"/>
                 <Height id="24" val="12"/>
@@ -872,9 +958,25 @@
             <ExpSyntax val="IF({0,48}='FALSE'LOG,IF({0,34}='N',NULL(),Date()),{0,44})"/>
             <ExpAttribute val="*"/>
           </Expression>
+          <Expression id="20">
+            <ExpSyntax val="Date()"/>
+            <ExpAttribute val="D"/>
+          </Expression>
+          <Expression id="21">
+            <ExpSyntax val="{0,34} = 'C'"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="22">
+            <ExpSyntax val="NULL()"/>
+            <ExpAttribute val="*"/>
+          </Expression>
+          <Expression id="23">
+            <ExpSyntax val="{0,34} = 'N'"/>
+            <ExpAttribute val="B"/>
+          </Expression>
         </Expressions>
         <Task MainProgram="N">
-          <Header Description="Q_CatBalanzas" ISN_2="16" LastIsn="125" id="61">
+          <Header Description="Q_CatBalanzas" ISN_2="16" LastIsn="142" id="61">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -888,9 +990,9 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="735911" _time="57675" date="09/11/2015" time="16:01:15"/>
+            <LastModified _date="735913" _time="39435" date="11/11/2015" time="10:57:15"/>
           </Header>
-          <ItemIsn val="41"/>
+          <ItemIsn val="47"/>
           <Resource>
             <DB>
               <DataObject comp="-1" obj="24"/>
@@ -1050,7 +1152,7 @@
                 </PropertyList>
               </Column>
             </Columns>
-            <ColumnsLastIsn val="32"/>
+            <ColumnsLastIsn val="38"/>
           </Resource>
           <Information>
             <Key>
@@ -1111,6 +1213,9 @@
             </BOX>
           </Information>
           <INT_RECOMP_INFO>
+            <v>15</v>
+            <v>16</v>
+            <v>17</v>
             <v>32</v>
             <v>9</v>
             <v>10</v>
@@ -1159,12 +1264,12 @@
                     <IsParameter val="N"/>
                     <REAL_VNAME_TXT val="ID_Empresa"/>
                     <Range MAX="1" MIN="1"/>
-                    <_RecomputeIndex val="11"/>
-                    <_FormIndex val="11"/>
+                    <_RecomputeIndex val="14"/>
+                    <_FormIndex val="14"/>
                     <_ControlLength val="6"/>
-                    <_ControlIndex val="11"/>
-                    <_OleSubformIdx val="11"/>
-                    <_TabbingOrderDspIndex val="11"/>
+                    <_ControlIndex val="14"/>
+                    <_OleSubformIdx val="14"/>
+                    <_TabbingOrderDspIndex val="14"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -1177,12 +1282,12 @@
                     <Type val="R"/>
                     <IsParameter val="N"/>
                     <Range MAX="2" MIN="2"/>
-                    <_RecomputeIndex val="9"/>
-                    <_FormIndex val="9"/>
+                    <_RecomputeIndex val="12"/>
+                    <_FormIndex val="12"/>
                     <_ControlLength val="2"/>
-                    <_ControlIndex val="9"/>
-                    <_OleSubformIdx val="9"/>
-                    <_TabbingOrderDspIndex val="9"/>
+                    <_ControlIndex val="12"/>
+                    <_OleSubformIdx val="12"/>
+                    <_TabbingOrderDspIndex val="12"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -1195,11 +1300,11 @@
                     <Type val="R"/>
                     <IsParameter val="N"/>
                     <Range MAX="3" MIN="3"/>
-                    <_RecomputeIndex val="9"/>
-                    <_FormIndex val="9"/>
-                    <_ControlIndex val="9"/>
-                    <_OleSubformIdx val="9"/>
-                    <_TabbingOrderDspIndex val="9"/>
+                    <_RecomputeIndex val="12"/>
+                    <_FormIndex val="12"/>
+                    <_ControlIndex val="12"/>
+                    <_OleSubformIdx val="12"/>
+                    <_TabbingOrderDspIndex val="12"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -1212,11 +1317,11 @@
                     <Type val="R"/>
                     <IsParameter val="N"/>
                     <Range MAX="4" MIN="4"/>
-                    <_RecomputeIndex val="9"/>
-                    <_FormIndex val="9"/>
-                    <_ControlIndex val="9"/>
-                    <_OleSubformIdx val="9"/>
-                    <_TabbingOrderDspIndex val="9"/>
+                    <_RecomputeIndex val="12"/>
+                    <_FormIndex val="12"/>
+                    <_ControlIndex val="12"/>
+                    <_OleSubformIdx val="12"/>
+                    <_TabbingOrderDspIndex val="12"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -1229,11 +1334,11 @@
                     <Type val="R"/>
                     <IsParameter val="N"/>
                     <Range MAX="5" MIN="5"/>
-                    <_RecomputeIndex val="9"/>
-                    <_FormIndex val="9"/>
-                    <_ControlIndex val="9"/>
-                    <_OleSubformIdx val="9"/>
-                    <_TabbingOrderDspIndex val="9"/>
+                    <_RecomputeIndex val="12"/>
+                    <_FormIndex val="12"/>
+                    <_ControlIndex val="12"/>
+                    <_OleSubformIdx val="12"/>
+                    <_TabbingOrderDspIndex val="12"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -1245,12 +1350,12 @@
                     <Column val="6"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="2"/>
-                    <_FormIndex val="2"/>
+                    <_RecomputeIndex val="5"/>
+                    <_FormIndex val="5"/>
                     <_ControlLength val="7"/>
-                    <_ControlIndex val="2"/>
-                    <_OleSubformIdx val="2"/>
-                    <_TabbingOrderDspIndex val="2"/>
+                    <_ControlIndex val="5"/>
+                    <_OleSubformIdx val="5"/>
+                    <_TabbingOrderDspIndex val="5"/>
                     <_DitIndexForToolkit val="10"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
@@ -1263,11 +1368,11 @@
                     <Column val="7"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="2"/>
-                    <_FormIndex val="2"/>
-                    <_ControlIndex val="2"/>
-                    <_OleSubformIdx val="2"/>
-                    <_TabbingOrderDspIndex val="2"/>
+                    <_RecomputeIndex val="5"/>
+                    <_FormIndex val="5"/>
+                    <_ControlIndex val="5"/>
+                    <_OleSubformIdx val="5"/>
+                    <_TabbingOrderDspIndex val="5"/>
                     <_DitIndexForToolkit val="11"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
@@ -1280,11 +1385,11 @@
                     <Column val="8"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="2"/>
-                    <_FormIndex val="2"/>
-                    <_ControlIndex val="2"/>
-                    <_OleSubformIdx val="2"/>
-                    <_TabbingOrderDspIndex val="2"/>
+                    <_RecomputeIndex val="5"/>
+                    <_FormIndex val="5"/>
+                    <_ControlIndex val="5"/>
+                    <_OleSubformIdx val="5"/>
+                    <_TabbingOrderDspIndex val="5"/>
                     <_DitIndexForToolkit val="12"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
@@ -1297,11 +1402,11 @@
                     <Column val="9"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="2"/>
-                    <_FormIndex val="2"/>
-                    <_ControlIndex val="2"/>
-                    <_OleSubformIdx val="2"/>
-                    <_TabbingOrderDspIndex val="2"/>
+                    <_RecomputeIndex val="5"/>
+                    <_FormIndex val="5"/>
+                    <_ControlIndex val="5"/>
+                    <_OleSubformIdx val="5"/>
+                    <_TabbingOrderDspIndex val="5"/>
                     <_DitIndexForToolkit val="13"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
@@ -1314,11 +1419,11 @@
                     <Column val="10"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="2"/>
-                    <_FormIndex val="2"/>
-                    <_ControlIndex val="2"/>
-                    <_OleSubformIdx val="2"/>
-                    <_TabbingOrderDspIndex val="2"/>
+                    <_RecomputeIndex val="5"/>
+                    <_FormIndex val="5"/>
+                    <_ControlIndex val="5"/>
+                    <_OleSubformIdx val="5"/>
+                    <_TabbingOrderDspIndex val="5"/>
                     <_DitIndexForToolkit val="14"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
@@ -1331,11 +1436,11 @@
                     <Column val="11"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="2"/>
-                    <_FormIndex val="2"/>
-                    <_ControlIndex val="2"/>
-                    <_OleSubformIdx val="2"/>
-                    <_TabbingOrderDspIndex val="2"/>
+                    <_RecomputeIndex val="5"/>
+                    <_FormIndex val="5"/>
+                    <_ControlIndex val="5"/>
+                    <_OleSubformIdx val="5"/>
+                    <_TabbingOrderDspIndex val="5"/>
                     <_DitIndexForToolkit val="15"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
@@ -1349,11 +1454,11 @@
                     <Type val="R"/>
                     <IsParameter val="N"/>
                     <_RecomputeLength val="1"/>
-                    <_RecomputeIndex val="1"/>
-                    <_FormIndex val="2"/>
-                    <_ControlIndex val="2"/>
-                    <_OleSubformIdx val="2"/>
-                    <_TabbingOrderDspIndex val="2"/>
+                    <_RecomputeIndex val="4"/>
+                    <_FormIndex val="5"/>
+                    <_ControlIndex val="5"/>
+                    <_OleSubformIdx val="5"/>
+                    <_TabbingOrderDspIndex val="5"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -1377,11 +1482,11 @@
                     <Column val="1"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="1"/>
-                    <_FormIndex val="1"/>
-                    <_ControlIndex val="1"/>
-                    <_OleSubformIdx val="1"/>
-                    <_TabbingOrderDspIndex val="1"/>
+                    <_RecomputeIndex val="4"/>
+                    <_FormIndex val="4"/>
+                    <_ControlIndex val="4"/>
+                    <_OleSubformIdx val="4"/>
+                    <_TabbingOrderDspIndex val="4"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -1399,11 +1504,11 @@
                     <Column val="2"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="1"/>
-                    <_FormIndex val="1"/>
-                    <_ControlIndex val="1"/>
-                    <_OleSubformIdx val="1"/>
-                    <_TabbingOrderDspIndex val="1"/>
+                    <_RecomputeIndex val="4"/>
+                    <_FormIndex val="4"/>
+                    <_ControlIndex val="4"/>
+                    <_OleSubformIdx val="4"/>
+                    <_TabbingOrderDspIndex val="4"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -1415,11 +1520,11 @@
                     <Column val="3"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="1"/>
-                    <_FormIndex val="1"/>
-                    <_ControlIndex val="1"/>
-                    <_OleSubformIdx val="1"/>
-                    <_TabbingOrderDspIndex val="1"/>
+                    <_RecomputeIndex val="4"/>
+                    <_FormIndex val="4"/>
+                    <_ControlIndex val="4"/>
+                    <_OleSubformIdx val="4"/>
+                    <_TabbingOrderDspIndex val="4"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -1437,11 +1542,11 @@
                     <Column val="4"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="1"/>
-                    <_FormIndex val="1"/>
-                    <_ControlIndex val="1"/>
-                    <_OleSubformIdx val="1"/>
-                    <_TabbingOrderDspIndex val="1"/>
+                    <_RecomputeIndex val="4"/>
+                    <_FormIndex val="4"/>
+                    <_ControlIndex val="4"/>
+                    <_OleSubformIdx val="4"/>
+                    <_TabbingOrderDspIndex val="4"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -1453,11 +1558,11 @@
                     <Column val="5"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="1"/>
-                    <_FormIndex val="1"/>
-                    <_ControlIndex val="1"/>
-                    <_OleSubformIdx val="1"/>
-                    <_TabbingOrderDspIndex val="1"/>
+                    <_RecomputeIndex val="4"/>
+                    <_FormIndex val="4"/>
+                    <_ControlIndex val="4"/>
+                    <_OleSubformIdx val="4"/>
+                    <_TabbingOrderDspIndex val="4"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -1475,11 +1580,11 @@
                     <Column val="6"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="1"/>
-                    <_FormIndex val="1"/>
-                    <_ControlIndex val="1"/>
-                    <_OleSubformIdx val="1"/>
-                    <_TabbingOrderDspIndex val="1"/>
+                    <_RecomputeIndex val="4"/>
+                    <_FormIndex val="4"/>
+                    <_ControlIndex val="4"/>
+                    <_OleSubformIdx val="4"/>
+                    <_TabbingOrderDspIndex val="4"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -1497,11 +1602,11 @@
                     <Column val="7"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="1"/>
-                    <_FormIndex val="1"/>
-                    <_ControlIndex val="1"/>
-                    <_OleSubformIdx val="1"/>
-                    <_TabbingOrderDspIndex val="1"/>
+                    <_RecomputeIndex val="4"/>
+                    <_FormIndex val="4"/>
+                    <_ControlIndex val="4"/>
+                    <_OleSubformIdx val="4"/>
+                    <_TabbingOrderDspIndex val="4"/>
                     <_DitIndexForToolkit val="16"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="N"/>
@@ -1515,11 +1620,11 @@
                     <Column val="8"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="1"/>
-                    <_FormIndex val="1"/>
-                    <_ControlIndex val="1"/>
-                    <_OleSubformIdx val="1"/>
-                    <_TabbingOrderDspIndex val="1"/>
+                    <_RecomputeIndex val="4"/>
+                    <_FormIndex val="4"/>
+                    <_ControlIndex val="4"/>
+                    <_OleSubformIdx val="4"/>
+                    <_TabbingOrderDspIndex val="4"/>
                     <_DitIndexForToolkit val="17"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="Y"/>
@@ -1533,11 +1638,11 @@
                     <Column val="9"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="1"/>
-                    <_FormIndex val="1"/>
-                    <_ControlIndex val="1"/>
-                    <_OleSubformIdx val="1"/>
-                    <_TabbingOrderDspIndex val="1"/>
+                    <_RecomputeIndex val="4"/>
+                    <_FormIndex val="4"/>
+                    <_ControlIndex val="4"/>
+                    <_OleSubformIdx val="4"/>
+                    <_TabbingOrderDspIndex val="4"/>
                     <_DitIndexForToolkit val="18"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="Y"/>
@@ -1551,11 +1656,11 @@
                     <Column val="10"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="1"/>
-                    <_FormIndex val="1"/>
-                    <_ControlIndex val="1"/>
-                    <_OleSubformIdx val="1"/>
-                    <_TabbingOrderDspIndex val="1"/>
+                    <_RecomputeIndex val="4"/>
+                    <_FormIndex val="4"/>
+                    <_ControlIndex val="4"/>
+                    <_OleSubformIdx val="4"/>
+                    <_TabbingOrderDspIndex val="4"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="N"/>
                     <Condition val="Y"/>
@@ -1568,11 +1673,11 @@
                     <Column val="11"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="1"/>
-                    <_FormIndex val="1"/>
-                    <_ControlIndex val="1"/>
-                    <_OleSubformIdx val="1"/>
-                    <_TabbingOrderDspIndex val="1"/>
+                    <_RecomputeIndex val="4"/>
+                    <_FormIndex val="4"/>
+                    <_ControlIndex val="4"/>
+                    <_OleSubformIdx val="4"/>
+                    <_TabbingOrderDspIndex val="4"/>
                     <DIFF_UPDATE val="T"/>
                     <PartOfDataview val="Y"/>
                     <Condition val="Y"/>
@@ -1585,11 +1690,11 @@
                     <Column val="12"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
-                    <_RecomputeIndex val="1"/>
-                    <_FormIndex val="1"/>
-                    <_ControlIndex val="1"/>
-                    <_OleSubformIdx val="1"/>
-                    <_TabbingOrderDspIndex val="1"/>
+                    <_RecomputeIndex val="4"/>
+                    <_FormIndex val="4"/>
+                    <_ControlIndex val="4"/>
+                    <_OleSubformIdx val="4"/>
+                    <_TabbingOrderDspIndex val="4"/>
                     <_DitIndexForToolkit val="19"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
@@ -1605,6 +1710,7 @@
                     <IsParameter val="N"/>
                     <_RecomputeIndex val="1"/>
                     <_FormIndex val="1"/>
+                    <_ControlLength val="3"/>
                     <_ControlIndex val="1"/>
                     <_OleSubformIdx val="1"/>
                     <_TabbingOrderDspIndex val="1"/>
@@ -1886,7 +1992,7 @@
                   </STP>
                 </LogicLine>
                 <LogicLine>
-                  <BLOCK EndBlock="59" EndBlockSegment="59" FlowIsn="34" Type="I">
+                  <BLOCK EndBlock="60" EndBlockSegment="60" FlowIsn="34" Type="I">
                     <Condition Exp="11"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
@@ -1919,7 +2025,7 @@
                     <Arguments>
                       <Argument>
                         <id val="27"/>
-                        <Expression val="31"/>
+                        <Expression val="30"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
@@ -1993,7 +2099,15 @@
                   </CallTask>
                 </LogicLine>
                 <LogicLine>
-                  <RaiseEvent FlowIsn="36">
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="407" IMG_DEF_CHG="Y" Image="I" Mode="W" TTL_DEF_CHG="Y" TXT="Se modifico la Balanza se le recomineda actualizar sus documentos XML y PDF." TitleTxt="Alerta" VR_DISP="B">
+                    <AppendToErrorLog val="N"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </STP>
+                </LogicLine>
+                <LogicLine>
+                  <RaiseEvent FlowIsn="353">
                     <Event>
                       <EventType val="I"/>
                       <InternalEventID val="295"/>
@@ -2002,11 +2116,11 @@
                     <Wait val="78"/>
                     <Arguments>
                       <Argument>
-                        <id val="6"/>
+                        <id val="37"/>
                         <Skip val="Y"/>
                       </Argument>
                       <Argument>
-                        <id val="7"/>
+                        <id val="38"/>
                         <Skip val="Y"/>
                       </Argument>
                     </Arguments>
@@ -2035,12 +2149,13 @@
                 <PublicObject comp="-1"/>
               </Event>
               <TXT val="B_aGeneraDoc"/>
+              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
-                  <Invoke FlowIsn="103">
+                  <Invoke FlowIsn="260">
                     <OperationType val="O"/>
                     <Command val="15"/>
-                    <Wait val="Y"/>
+                    <Wait val="N"/>
                     <Show val="2"/>
                     <Condition val="Y"/>
                     <Modifier val="B"/>
@@ -2048,49 +2163,49 @@
                   </Invoke>
                 </LogicLine>
                 <LogicLine>
-                  <CallTask FlowIsn="104">
+                  <CallTask FlowIsn="408">
                     <OperationType val="P"/>
-                    <TaskID comp="-1" obj="106"/>
+                    <TaskID comp="-1" obj="108"/>
                     <Lock val="N"/>
                     <Arguments>
                       <Argument>
-                        <id val="10"/>
+                        <id val="46"/>
                         <Parent val="1"/>
                         <Variable val="29"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
-                        <id val="11"/>
+                        <id val="47"/>
                         <Parent val="1"/>
                         <Variable val="30"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
-                        <id val="12"/>
+                        <id val="48"/>
                         <Parent val="1"/>
                         <Variable val="34"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
-                        <id val="13"/>
+                        <id val="49"/>
                         <Parent val="1"/>
                         <Variable val="32"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
-                        <id val="14"/>
+                        <id val="50"/>
                         <Parent val="1"/>
                         <Variable val="33"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
-                        <id val="16"/>
+                        <id val="51"/>
                         <Parent val="1"/>
                         <Variable val="44"/>
                         <Skip val="N"/>
                       </Argument>
                       <Argument>
-                        <id val="15"/>
+                        <id val="52"/>
                         <Expression val="16"/>
                         <Skip val="N"/>
                       </Argument>
@@ -2103,7 +2218,7 @@
                   </CallTask>
                 </LogicLine>
                 <LogicLine>
-                  <CallTask FlowIsn="260">
+                  <CallTask FlowIsn="345">
                     <OperationType val="T"/>
                     <TaskID comp="-1" obj="119"/>
                     <Lock val="N"/>
@@ -2115,32 +2230,12 @@
                   </CallTask>
                 </LogicLine>
                 <LogicLine>
-                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="106" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="XML y PDF Generados" TitleTxt="Warning" VR_DISP="B">
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="409" IMG_DEF_CHG="Y" Image="I" Mode="W" TTL_DEF_CHG="Y" TXT="Documentos XML y PDF generados." TitleTxt="Archivos" VR_DISP="B">
                     <AppendToErrorLog val="N"/>
-                    <Condition Exp="33"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </STP>
-                </LogicLine>
-                <LogicLine>
-                  <STP Buttons="N" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="322" IMG_DEF_CHG="Y" Image="Q" Mode="W" TTL_DEF_CHG="N" TXT="Desea abrir la carpeta contenedora?" TitleTxt="Warning" VR_DISP="B">
-                    <AppendToErrorLog val="N"/>
-                    <RetValVar val="41"/>
                     <Condition val="Y"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
-                </LogicLine>
-                <LogicLine>
-                  <Invoke FlowIsn="323">
-                    <OperationType val="O"/>
-                    <Command val="34"/>
-                    <Wait val="N"/>
-                    <Show val="2"/>
-                    <Condition Exp="35"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </Invoke>
                 </LogicLine>
                 <LogicLine>
                   <RaiseEvent FlowIsn="71">
@@ -2548,6 +2643,8 @@
                   <Width id="23" val="70"/>
                   <Height id="24" val="14"/>
                   <Data FieldID="13" id="43"/>
+                  <Visible id="61"/>
+                  <Enabled Exp="36" id="62"/>
                   <TabOrder id="314" val="8"/>
                 </PropertyList>
               </Control>
@@ -2646,7 +2743,7 @@
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="7">
-              <ExpSyntax val="Trim({0,2})&lt;>''"/>
+              <ExpSyntax val="Trim({0,2})&lt;>'' AND {0,36} = 'N'"/>
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="8">
@@ -2741,6 +2838,34 @@
               <ExpSyntax val="{0,41} = 6"/>
               <ExpAttribute val="B"/>
             </Expression>
+            <Expression id="44">
+              <ExpSyntax val="{32768,9} = 'L' AND {0,36} = 'N' OR {0,36} = ''"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="45">
+              <ExpSyntax val="FileExist({1,42})"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="46">
+              <ExpSyntax val="'cmd /c MD '&amp;Trim({1,42})&amp;'Balanzas'&amp;'\'&amp;Trim({1,30})&amp;'\'&amp;Str({0,4},'4')"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="47">
+              <ExpSyntax val="Trim({1,42})&amp;'Balanzas'&amp;'\'&amp;Trim({1,30})&amp;'\'&amp;Str({1,33},'4')&amp;'\'"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="48">
+              <ExpSyntax val="{32768,9} = 'L'"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="49">
+              <ExpSyntax val="'cmd /c start '&amp;Trim({1,42})"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="50">
+              <ExpSyntax val="{0,41} = 6"/>
+              <ExpAttribute val="B"/>
+            </Expression>
           </Expressions>
           <VarRangeInfo Mode="E" VarRangeVeeIsn="1" id="1"/>
           <VarRangeInfo Mode="E" VarRangeVeeIsn="2" id="2"/>
@@ -2748,7 +2873,7 @@
           <VarRangeInfo Mode="E" VarRangeVeeIsn="4" id="5"/>
           <VarRangeInfo Mode="E" VarRangeVeeIsn="5" id="6"/>
           <Task MainProgram="N">
-            <Header Description="O_AgregarModificar" ISN_2="17" LastIsn="125" id="61">
+            <Header Description="O_AgregarModificar" ISN_2="17" LastIsn="142" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -2761,9 +2886,9 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="735871" _time="47248" date="30/09/2015" time="13:07:28"/>
+              <LastModified _date="735913" _time="39264" date="11/11/2015" time="10:54:24"/>
             </Header>
-            <ItemIsn val="39"/>
+            <ItemIsn val="41"/>
             <Resource>
               <DB>
                 <DataObject comp="-1" obj="3"/>
@@ -2902,7 +3027,7 @@
                   </PropertyList>
                 </Column>
               </Columns>
-              <ColumnsLastIsn val="25"/>
+              <ColumnsLastIsn val="27"/>
             </Resource>
             <Information>
               <Key>
@@ -3506,6 +3631,14 @@
                     </CallTask>
                   </LogicLine>
                   <LogicLine>
+                    <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="185" IMG_DEF_CHG="Y" Image="I" Mode="W" TTL_DEF_CHG="Y" TXT="Se modifico la Balanza se le recomineda actualizar sus documentos XML y PDF." TitleTxt="Alerta" VR_DISP="B">
+                      <AppendToErrorLog val="N"/>
+                      <Condition val="Y"/>
+                      <Modifier val="B"/>
+                      <Direction val="C"/>
+                    </STP>
+                  </LogicLine>
+                  <LogicLine>
                     <RaiseEvent FlowIsn="31">
                       <Event>
                         <EventType val="I"/>
@@ -3937,7 +4070,7 @@
               </Expression>
             </Expressions>
             <Task MainProgram="N">
-              <Header Description="M_Guarda" ISN_2="18" LastIsn="18" id="61">
+              <Header Description="M_Guarda" ISN_2="18" LastIsn="142" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -4766,7 +4899,7 @@
               </Expressions>
             </Task>
             <Task MainProgram="N">
-              <Header Description="Q_ValidaBalanza" ISN_2="19" LastIsn="19" id="61">
+              <Header Description="Q_ValidaBalanza" ISN_2="19" LastIsn="142" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -5289,7 +5422,7 @@
               </Expressions>
             </Task>
             <Task MainProgram="N">
-              <Header Description="M_ResetEnvio" ISN_2="124" LastIsn="125" id="61">
+              <Header Description="M_ResetEnvio" ISN_2="124" LastIsn="142" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -5748,7 +5881,7 @@
               <VarRangeInfo Mode="E" VarRangeVeeIsn="21" id="10"/>
               <VarRangeInfo Mode="E" VarRangeVeeIsn="14" id="11"/>
               <Task MainProgram="N">
-                <Header Description="M_Guarda" ISN_2="125" LastIsn="125" id="61">
+                <Header Description="M_Guarda" ISN_2="125" LastIsn="142" id="61">
                   <ExecutionRight comp="-1"/>
                   <Resident val="N"/>
                   <SQL val="N"/>
@@ -6065,7 +6198,7 @@
             </Task>
           </Task>
           <Task MainProgram="N">
-            <Header Description="D_Borra" ISN_2="20" LastIsn="125" id="61">
+            <Header Description="D_Borra" ISN_2="20" LastIsn="142" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -6322,7 +6455,7 @@
             <VarRangeInfo Mode="E" VarRangeVeeIsn="7" id="6"/>
           </Task>
           <Task MainProgram="N">
-            <Header Description="M_GuardaEnvio" ISN_2="51" LastIsn="125" id="61">
+            <Header Description="M_GuardaEnvio" ISN_2="51" LastIsn="142" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -6781,7 +6914,7 @@
             <VarRangeInfo Mode="T" VarRangeVeeIsn="21" id="10"/>
             <VarRangeInfo Mode="T" VarRangeVeeIsn="14" id="11"/>
             <Task MainProgram="N">
-              <Header Description="M_Guarda" ISN_2="52" LastIsn="125" id="61">
+              <Header Description="M_Guarda" ISN_2="52" LastIsn="142" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -7097,7 +7230,7 @@
             </Task>
           </Task>
           <Task MainProgram="N">
-            <Header Description="M_GuardaAgregadas" ISN_2="71" LastIsn="125" id="61">
+            <Header Description="M_GuardaAgregadas" ISN_2="71" LastIsn="142" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -7612,7 +7745,7 @@
             </Expressions>
             <VarRangeInfo Mode="E" VarRangeVeeIsn="9" id="1"/>
             <Task MainProgram="N">
-              <Header Description="M_Guarda" ISN_2="72" LastIsn="125" id="61">
+              <Header Description="M_Guarda" ISN_2="72" LastIsn="142" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -8106,7 +8239,7 @@
             </Task>
           </Task>
           <Task MainProgram="N">
-            <Header Description="M_GuardaImportado" ISN_2="90" LastIsn="125" id="61">
+            <Header Description="M_GuardaImportado" ISN_2="90" LastIsn="142" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -8471,7 +8604,7 @@
             <VarRangeInfo Mode="E" VarRangeVeeIsn="21" id="10"/>
             <VarRangeInfo Mode="E" VarRangeVeeIsn="14" id="11"/>
             <Task MainProgram="N">
-              <Header Description="M_Guarda" ISN_2="107" LastIsn="125" id="61">
+              <Header Description="M_Guarda" ISN_2="107" LastIsn="142" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -8870,7 +9003,7 @@
             </Task>
           </Task>
           <Task MainProgram="N">
-            <Header Description="M_ResetEnvio" ISN_2="119" LastIsn="125" id="61">
+            <Header Description="M_ResetEnvio" ISN_2="119" LastIsn="142" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -9329,7 +9462,7 @@
             <VarRangeInfo Mode="E" VarRangeVeeIsn="21" id="10"/>
             <VarRangeInfo Mode="E" VarRangeVeeIsn="14" id="11"/>
             <Task MainProgram="N">
-              <Header Description="M_Guarda" ISN_2="120" LastIsn="125" id="61">
+              <Header Description="M_Guarda" ISN_2="120" LastIsn="142" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -9646,7 +9779,7 @@
           </Task>
         </Task>
         <Task MainProgram="N">
-          <Header Description="Q_FechaModif" ISN_2="76" LastIsn="125" id="61">
+          <Header Description="Q_FechaModif" ISN_2="76" LastIsn="142" id="61">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -10141,7 +10274,7 @@
           </Expressions>
         </Task>
         <Task MainProgram="N">
-          <Header Description="M_GuardaFecha" ISN_2="80" LastIsn="125" id="61">
+          <Header Description="M_GuardaFecha" ISN_2="80" LastIsn="142" id="61">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -10427,7 +10560,7 @@
           <VarRangeInfo Mode="T" VarRangeVeeIsn="21" id="10"/>
           <VarRangeInfo Mode="T" VarRangeVeeIsn="14" id="11"/>
           <Task MainProgram="N">
-            <Header Description="M_Guarda" ISN_2="81" LastIsn="125" id="61">
+            <Header Description="M_Guarda" ISN_2="81" LastIsn="142" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
