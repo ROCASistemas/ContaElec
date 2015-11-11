@@ -30,7 +30,7 @@
           <External val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="735907" _time="46126" date="05/11/2015" time="12:48:46"/>
+          <LastModified _date="735912" _time="58697" date="10/11/2015" time="16:18:17"/>
         </Header>
         <ItemIsn val="81"/>
         <Resource>
@@ -1030,7 +1030,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="735863" _time="42152" date="22/09/2015" time="11:42:32"/>
+            <LastModified _date="735912" _time="58697" date="10/11/2015" time="16:18:17"/>
           </Header>
           <ItemIsn val="79"/>
           <Resource>
@@ -1939,7 +1939,9 @@
                   <ControlName id="46" val="Debe"/>
                   <MultiLineEdit id="71"/>
                   <_Orientation id="143"/>
+                  <TabInto id="269"/>
                   <TabOrder id="314" val="11"/>
+                  <AllowParking id="315"/>
                 </PropertyList>
               </Control>
               <Control _test_id="128" id="128">
@@ -1969,7 +1971,9 @@
                   <ControlName id="46" val="Haber"/>
                   <MultiLineEdit id="71"/>
                   <_Orientation id="143"/>
+                  <TabInto id="269"/>
                   <TabOrder id="314" val="15"/>
+                  <AllowParking id="315"/>
                 </PropertyList>
               </Control>
               <Control _test_id="155" id="155">

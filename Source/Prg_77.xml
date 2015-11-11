@@ -31,7 +31,7 @@
           <External val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="735862" _time="56387" date="21/09/2015" time="15:39:47"/>
+          <LastModified _date="735912" _time="55522" date="10/11/2015" time="15:25:22"/>
         </Header>
         <ItemIsn val="31"/>
         <Resource>
@@ -1417,7 +1417,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="735862" _time="56387" date="21/09/2015" time="15:39:47"/>
+            <LastModified _date="735912" _time="55522" date="10/11/2015" time="15:25:22"/>
           </Header>
           <ItemIsn val="55"/>
           <Resource>
@@ -2476,6 +2476,7 @@
                 <PublicObject comp="-1"/>
               </Event>
               <TXT val="B_aGuardar"/>
+              <Expanded val="1"/>
               <LogicLines>
                 <LogicLine>
                   <Remark FlowIsn="56">
@@ -2565,6 +2566,7 @@
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="496" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="Debe capturar el Banco Origen" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
+                    <Disabled val="1"/>
                     <Condition Exp="22"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
@@ -2573,7 +2575,24 @@
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="495" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="Debe capturar el Banco Destino" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
+                    <Disabled val="1"/>
                     <Condition Exp="23"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </STP>
+                </LogicLine>
+                <LogicLine>
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="532" IMG_DEF_CHG="Y" Image="C" Mode="W" TTL_DEF_CHG="Y" TXT="Debe capturar Banco Origen" TitleTxt="Error" VR_DISP="B">
+                    <AppendToErrorLog val="N"/>
+                    <Condition Exp="36"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </STP>
+                </LogicLine>
+                <LogicLine>
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="533" IMG_DEF_CHG="Y" Image="C" Mode="W" TTL_DEF_CHG="Y" TXT="Debe capturar Banco Destino" TitleTxt="Error" VR_DISP="B">
+                    <AppendToErrorLog val="N"/>
+                    <Condition Exp="37"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
@@ -2723,6 +2742,7 @@
                   <Width id="23" val="372"/>
                   <Height id="24" val="216"/>
                   <StaticType id="70" val="1"/>
+                  <_Orientation id="143"/>
                 </PropertyList>
               </Control>
               <Control _test_id="28" id="28">
@@ -3367,9 +3387,17 @@
               <ExpSyntax val="{0,46}=''"/>
               <ExpAttribute val="B"/>
             </Expression>
+            <Expression id="42">
+              <ExpSyntax val="{0,37} = 0 AND {0,44} = ''"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="43">
+              <ExpSyntax val="{0,43} = 0 AND {0,46} = ''"/>
+              <ExpAttribute val="B"/>
+            </Expression>
           </Expressions>
           <Task MainProgram="N">
-            <Header Description="Guardar Transferencia" ISN_2="3" LastIsn="6" id="77">
+            <Header Description="Guardar Transferencia" ISN_2="3" LastIsn="3" id="77">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>

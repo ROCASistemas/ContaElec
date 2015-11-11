@@ -1362,3 +1362,28 @@
  <562024887468355900> 10/11/2015 12:38:50.251     [Error  ] - Contraseña incorrecta.
  <228035447666720420> 10/11/2015 12:41:26.700     [Error  ] - Cannot open output PDF file in Write mode: C:\CE\EMP1\Generados\Cuentas\SIV741223947\2015\SIV741223947201511CT.pdf, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_CuentasEmpresa.Q_CuentasEmpresa.O_AgregarModificar.PS_XMLCuentas.RP_CatalogoCuentas.Leer
  <504329260634522370> 10/11/2015 12:43:56.772     [Error  ] - Contraseña incorrecta.
+ <-1             > 10/11/2015 15:04:26.329     [Error  ] - Component Files not found : model.ecf
+ <-1             > 10/11/2015 15:04:26.624     [Error  ] - Component Files not found : model.ecf
+ <-1             > 10/11/2015 15:04:27.063     [Error  ] - Component Files not found : model.ecf
+ <-1             > 10/11/2015 15:04:27.163     [Error  ] - Component Files not found : model.ecf
+ <95177641608301632> 10/11/2015 15:07:35.857     [Error  ] - El usuario no existe.
+ <8484744203475290> 10/11/2015 15:18:44.070     [Error  ] - Debe capturar el Banco Destino
+ <230148578940473180> 10/11/2015 15:27:11.772     [Error  ] - La Moneda no existe
+ <230148578940473180> 10/11/2015 15:28:01.358     [Error  ] - La Moneda no existe
+ <230148578940473180> 10/11/2015 15:30:41.384     [Error  ] - RFC errónea, la longitud debe ser de 12 caracteres
+ <477256652697404610> 10/11/2015 16:34:51.302     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <477256652697404610> 10/11/2015 16:42:08.506     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <477256652697404610> 10/11/2015 16:43:31.416     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <477256652697404610> 10/11/2015 16:44:45.027     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <477256652697404610> 10/11/2015 16:44:49.979     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <-1             > 11/11/2015 09:10:27.544     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:10:29.029     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:10:29.816     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:10:30.144     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:10:36.253     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:10:36.309     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:10:36.472     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:10:36.519     [Error  ] - Component Files not found : model.ecf
+ <439971357095120450> 11/11/2015 09:51:05.846     [Error  ] - File not found: C:\CE\EMP1\Generados\Balanzas\SIV741223947\2015\SIV741223947201510BN.pdf, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Visor_Bitacora.Q_MuestraBitacora
+ <439971357095120450> 11/11/2015 09:51:16.611     [Error  ] - File not found: C:\CE\EMP1\Generados\Balanzas\SIV741223947\2015\SIV741223947201510BN.pdf, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Visor_Bitacora.Q_MuestraBitacora
+ <439971357095120450> 11/11/2015 09:51:18.619     [Error  ] - File not found: C:\CE\EMP1\Generados\Balanzas\SIV741223947\2015\SIV741223947201510BN.xml, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Visor_Bitacora.Q_MuestraBitacora

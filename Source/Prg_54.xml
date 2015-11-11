@@ -31,7 +31,7 @@
           <External val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="735911" _time="40072" date="09/11/2015" time="11:07:52"/>
+          <LastModified _date="735913" _time="39014" date="11/11/2015" time="10:50:14"/>
         </Header>
         <ItemIsn val="48"/>
         <Resource>
@@ -1713,6 +1713,7 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
+            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Select FieldID="42" FlowIsn="554" id="42">

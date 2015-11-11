@@ -29,7 +29,7 @@
           <External val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="735907" _time="61016" date="05/11/2015" time="16:56:56"/>
+          <LastModified _date="735912" _time="64070" date="10/11/2015" time="17:47:50"/>
         </Header>
         <ItemIsn val="12"/>
         <Resource>
@@ -917,7 +917,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="735907" _time="61016" date="05/11/2015" time="16:56:56"/>
+            <LastModified _date="735912" _time="64070" date="10/11/2015" time="17:47:50"/>
           </Header>
           <ItemIsn val="25"/>
           <Resource>
@@ -1762,7 +1762,8 @@
                     <Arguments>
                       <Argument>
                         <id val="1"/>
-                        <Skip val="Y"/>
+                        <Expression val="26"/>
+                        <Skip val="N"/>
                       </Argument>
                       <Argument>
                         <id val="2"/>
@@ -1785,7 +1786,7 @@
               <PropertyList model="FORM_GUI0">
                 <Left id="21" val="7"/>
                 <Top id="22" val="86"/>
-                <Width id="23" val="487"/>
+                <Width id="23" val="476"/>
                 <Height id="24" val="268"/>
                 <TitleBar id="26"/>
                 <SystemMenu id="27"/>
@@ -1801,10 +1802,10 @@
               </PropertyList>
               <Control _test_id="1" id="1">
                 <PropertyList model="CTRL_GUI0_TABLE">
-                  <Left id="21" val="7"/>
+                  <Left id="21" val="4"/>
                   <Top id="22" val="3"/>
                   <Width id="23" val="472"/>
-                  <Height id="24" val="242"/>
+                  <Height id="24" val="238"/>
                   <TitleHeight id="79" val="12"/>
                   <RowHeight id="80" val="16"/>
                   <Elements id="81" val="7"/>
@@ -1866,14 +1867,15 @@
                     <Var FieldID="2"/>
                   </Model>
                   <Placement id="20" right="100"/>
-                  <Left id="21" val="11"/>
+                  <Left id="21" val="8"/>
                   <Top id="22" val="18"/>
                   <Width id="23" val="27"/>
                   <Height id="24" val="10"/>
                   <ControlLayer id="25" val="1"/>
                   <Data FieldID="2" id="43"/>
                   <ControlName id="46" val="Anio"/>
-                  <Visible Exp="18" id="61"/>
+                  <Visible id="61"/>
+                  <Enabled id="62"/>
                   <Style id="63" val="1"/>
                   <MultiLineEdit id="71"/>
                   <_Orientation id="143"/>
@@ -1886,14 +1888,15 @@
                     <Var FieldID="6"/>
                   </Model>
                   <Placement id="20" right="100"/>
-                  <Left id="21" val="275"/>
+                  <Left id="21" val="272"/>
                   <Top id="22" val="18"/>
                   <Width id="23" val="61"/>
                   <Height id="24" val="10"/>
                   <ControlLayer id="25" val="5"/>
                   <Data FieldID="6" id="43"/>
                   <ControlName id="46" val="Fecha_Hora_Creacion"/>
-                  <Visible Exp="18" id="61"/>
+                  <Visible id="61"/>
+                  <Enabled id="62"/>
                   <Style id="63" val="1"/>
                   <MultiLineEdit id="71"/>
                   <_Orientation id="143"/>
@@ -1906,14 +1909,15 @@
                     <Var FieldID="7"/>
                   </Model>
                   <Placement id="20" right="100"/>
-                  <Left id="21" val="339"/>
+                  <Left id="21" val="336"/>
                   <Top id="22" val="18"/>
                   <Width id="23" val="46"/>
                   <Height id="24" val="10"/>
                   <ControlLayer id="25" val="6"/>
                   <Data FieldID="7" id="43"/>
                   <ControlName id="46" val="Fecha_Hora_Creacion_time"/>
-                  <Visible Exp="18" id="61"/>
+                  <Visible id="61"/>
+                  <Enabled id="62"/>
                   <Style id="63" val="1"/>
                   <MultiLineEdit id="71"/>
                   <_Orientation id="143"/>
@@ -1926,14 +1930,15 @@
                     <Var FieldID="8"/>
                   </Model>
                   <Placement id="20" right="100"/>
-                  <Left id="21" val="407"/>
+                  <Left id="21" val="404"/>
                   <Top id="22" val="18"/>
                   <Width id="23" val="14"/>
                   <Height id="24" val="10"/>
                   <ControlLayer id="25" val="7"/>
                   <Data FieldID="8" id="43"/>
                   <ControlName id="46" val="Estatus_Registro"/>
-                  <Visible Exp="18" id="61"/>
+                  <Visible id="61"/>
+                  <Enabled id="62"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="7"/>
@@ -1945,13 +1950,15 @@
                     <Var FieldID="25"/>
                   </Model>
                   <Placement id="20" right="100"/>
-                  <Left id="21" val="45"/>
+                  <Left id="21" val="42"/>
                   <Top id="22" val="18"/>
                   <Width id="23" val="65"/>
                   <Height id="24" val="12"/>
                   <ControlLayer id="25" val="2"/>
                   <Data FieldID="25" id="43"/>
                   <ControlName id="46" val="Mes"/>
+                  <Visible id="61"/>
+                  <Enabled id="62"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="2"/>
@@ -1963,13 +1970,15 @@
                     <Var FieldID="4"/>
                   </Model>
                   <Placement id="20" right="100"/>
-                  <Left id="21" val="117"/>
+                  <Left id="21" val="114"/>
                   <Top id="22" val="18"/>
                   <Width id="23" val="65"/>
                   <Height id="24" val="12"/>
                   <ControlLayer id="25" val="3"/>
                   <Data FieldID="4" id="43"/>
                   <ControlName id="46" val="Tipo_Documento"/>
+                  <Visible id="61"/>
+                  <Enabled id="62"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="3"/>
@@ -1981,13 +1990,15 @@
                     <Var FieldID="5"/>
                   </Model>
                   <Placement id="20" right="100"/>
-                  <Left id="21" val="186"/>
+                  <Left id="21" val="184"/>
                   <Top id="22" val="18"/>
                   <Width id="23" val="82"/>
                   <Height id="24" val="12"/>
                   <ControlLayer id="25" val="4"/>
                   <Data FieldID="5" id="43"/>
                   <ControlName id="46" val="Tipo_Envio"/>
+                  <Visible id="61"/>
+                  <Enabled id="62"/>
                   <Style id="63" val="1"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="4"/>
@@ -2097,7 +2108,7 @@
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="11">
-              <ExpSyntax val="CndRange(Trim({1,6})&lt;>'',{1,6})"/>
+              <ExpSyntax val="'A'"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="12">
@@ -2152,6 +2163,14 @@
               <ExpSyntax val="Str({0,3},'2P0')"/>
               <ExpAttribute val="A"/>
             </Expression>
+            <Expression id="28">
+              <ExpSyntax val="{0,8} &lt;> 'B'"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="29">
+              <ExpSyntax val="2"/>
+              <ExpAttribute val="N"/>
+            </Expression>
           </Expressions>
           <VarRangeInfo Mode="E" VarRangeVeeIsn="1" id="1"/>
           <VarRangeInfo Mode="E" VarRangeVeeIsn="2" id="2"/>
@@ -2173,9 +2192,9 @@
               <External val="N"/>
               <FormType val="N"/>
               <DotNetObjectExists val="N"/>
-              <LastModified _date="735718" _time="36312" date="30/04/2015" time="10:05:12"/>
+              <LastModified _date="735912" _time="61408" date="10/11/2015" time="17:03:28"/>
             </Header>
-            <ItemIsn val="5"/>
+            <ItemIsn val="11"/>
             <Resource>
               <DB>
                 <DataObject comp="-1" obj="9"/>
@@ -2189,17 +2208,16 @@
             </Resource>
             <Information>
               <Key>
-                <Column val="1"/>
                 <Mode val="N"/>
               </Key>
-              <DB comp="-1" obj="9"/>
+              <DB comp="-1"/>
               <Sort>
                 <CLS val="A"/>
               </Sort>
               <ForceRecordDelete DEL="N"/>
               <EndTaskCondition val="Y"/>
               <EvaluateEndCondition val="A"/>
-              <InitialMode val="D"/>
+              <InitialMode val="M"/>
               <Locate Direction="A"/>
               <Range Direction="A"/>
               <VarRange LastIsn="5"/>
@@ -2255,103 +2273,157 @@
                 <EngineDirective val="S"/>
                 <ShowMessage val="Y"/>
                 <Condition val="89"/>
-                <_TotalVariabls val="5"/>
+                <_TotalVariabls val="6"/>
                 <Event>
                   <EventType val="S"/>
                   <PublicObject comp="-1"/>
                 </Event>
                 <LogicLines>
                   <LogicLine>
-                    <DATAVIEW_SRC FlowIsn="1" IDX="1" Type="M">
+                    <DATAVIEW_SRC FlowIsn="1" Type="M">
                       <Condition val="N"/>
                       <Modifier val="B"/>
                       <Direction val="C"/>
                     </DATAVIEW_SRC>
                   </LogicLine>
                   <LogicLine>
-                    <Select FieldID="1" FlowIsn="2" id="1">
+                    <LNK Direction="A" EVL_CND="R" FlowIsn="8" Key="1" Mode="W" SortType="9" VIEW="1" VIEWS="6">
+                      <DB comp="-1" obj="9"/>
+                      <Expanded val="1"/>
+                      <Condition val="Y"/>
+                    </LNK>
+                  </LogicLine>
+                  <LogicLine>
+                    <Select FieldID="10" FlowIsn="14" id="10">
                       <Column val="1"/>
                       <Type val="R"/>
                       <IsParameter val="N"/>
-                      <Range MAX="1" MIN="1"/>
+                      <Locate MAX="1" MIN="1"/>
                       <_RecomputeIndex val="1"/>
                       <_FormIndex val="1"/>
                       <_ControlIndex val="1"/>
                       <_OleSubformIdx val="1"/>
                       <_TabbingOrderDspIndex val="1"/>
                       <DIFF_UPDATE val="T"/>
-                      <Condition val="Y"/>
+                      <Condition val="N"/>
                       <Modifier val="S"/>
                       <Direction val="C"/>
                     </Select>
                   </LogicLine>
                   <LogicLine>
-                    <Select FieldID="2" FlowIsn="3" id="2">
+                    <Select FieldID="9" FlowIsn="13" id="9">
                       <Column val="2"/>
                       <Type val="R"/>
                       <IsParameter val="N"/>
-                      <Range MAX="2" MIN="2"/>
+                      <Locate MAX="2" MIN="2"/>
                       <_RecomputeIndex val="1"/>
                       <_FormIndex val="1"/>
                       <_ControlIndex val="1"/>
                       <_OleSubformIdx val="1"/>
                       <_TabbingOrderDspIndex val="1"/>
                       <DIFF_UPDATE val="T"/>
-                      <Condition val="Y"/>
+                      <Condition val="N"/>
                       <Modifier val="S"/>
                       <Direction val="C"/>
                     </Select>
                   </LogicLine>
                   <LogicLine>
-                    <Select FieldID="3" FlowIsn="4" id="3">
+                    <Select FieldID="8" FlowIsn="12" id="8">
                       <Column val="3"/>
                       <Type val="R"/>
                       <IsParameter val="N"/>
-                      <Range MAX="3" MIN="3"/>
+                      <Locate MAX="3" MIN="3"/>
                       <_RecomputeIndex val="1"/>
                       <_FormIndex val="1"/>
                       <_ControlIndex val="1"/>
                       <_OleSubformIdx val="1"/>
                       <_TabbingOrderDspIndex val="1"/>
                       <DIFF_UPDATE val="T"/>
-                      <Condition val="Y"/>
+                      <Condition val="N"/>
                       <Modifier val="S"/>
                       <Direction val="C"/>
                     </Select>
                   </LogicLine>
                   <LogicLine>
-                    <Select FieldID="4" FlowIsn="5" id="4">
+                    <Select FieldID="7" FlowIsn="11" id="7">
                       <Column val="4"/>
                       <Type val="R"/>
                       <IsParameter val="N"/>
-                      <Range MAX="4" MIN="4"/>
+                      <Locate MAX="4" MIN="4"/>
                       <_RecomputeIndex val="1"/>
                       <_FormIndex val="1"/>
                       <_ControlIndex val="1"/>
                       <_OleSubformIdx val="1"/>
                       <_TabbingOrderDspIndex val="1"/>
                       <DIFF_UPDATE val="T"/>
-                      <Condition val="Y"/>
+                      <Condition val="N"/>
                       <Modifier val="S"/>
                       <Direction val="C"/>
                     </Select>
                   </LogicLine>
                   <LogicLine>
-                    <Select FieldID="5" FlowIsn="6" id="5">
+                    <Select FieldID="6" FlowIsn="10" id="6">
                       <Column val="5"/>
                       <Type val="R"/>
                       <IsParameter val="N"/>
-                      <Range MAX="5" MIN="5"/>
+                      <Locate MAX="5" MIN="5"/>
                       <_RecomputeIndex val="1"/>
                       <_FormIndex val="1"/>
                       <_ControlIndex val="1"/>
                       <_OleSubformIdx val="1"/>
                       <_TabbingOrderDspIndex val="1"/>
                       <DIFF_UPDATE val="T"/>
-                      <Condition val="Y"/>
+                      <Condition val="N"/>
                       <Modifier val="S"/>
                       <Direction val="C"/>
                     </Select>
+                  </LogicLine>
+                  <LogicLine>
+                    <Select FieldID="11" FlowIsn="21" id="11">
+                      <Column val="8"/>
+                      <Type val="R"/>
+                      <IsParameter val="N"/>
+                      <_RecomputeIndex val="1"/>
+                      <_FormIndex val="1"/>
+                      <_ControlIndex val="1"/>
+                      <_OleSubformIdx val="1"/>
+                      <_TabbingOrderDspIndex val="1"/>
+                      <DIFF_UPDATE val="T"/>
+                      <Condition val="N"/>
+                      <Modifier val="S"/>
+                      <Direction val="C"/>
+                    </Select>
+                  </LogicLine>
+                  <LogicLine>
+                    <END_LINK FlowIsn="9"/>
+                  </LogicLine>
+                </LogicLines>
+              </LogicUnit>
+              <LogicUnit id="3" propagate="78">
+                <Level val="R"/>
+                <Type val="S"/>
+                <_DspTemplate val="0"/>
+                <_HeaderPosition val="9"/>
+                <Scope val="S"/>
+                <EngineDirective val="S"/>
+                <ShowMessage val="Y"/>
+                <Condition val="89"/>
+                <Event>
+                  <EventType val="S"/>
+                  <PublicObject comp="-1"/>
+                </Event>
+                <Expanded val="1"/>
+                <LogicLines>
+                  <LogicLine>
+                    <Update FlowIsn="20">
+                      <FieldID val="11"/>
+                      <WithValue val="6"/>
+                      <Incremental val="N"/>
+                      <ForcedUpdate val="Y"/>
+                      <Condition val="Y"/>
+                      <Modifier val="B"/>
+                      <Direction val="C"/>
+                    </Update>
                   </LogicLine>
                 </LogicLines>
               </LogicUnit>
@@ -2376,7 +2448,7 @@
               </Expression>
               <Expression id="3">
                 <ExpSyntax val="{1,3}"/>
-                <ExpAttribute val="A"/>
+                <ExpAttribute val="N"/>
               </Expression>
               <Expression id="4">
                 <ExpSyntax val="{1,4}"/>
@@ -2386,12 +2458,11 @@
                 <ExpSyntax val="{1,5}"/>
                 <ExpAttribute val="A"/>
               </Expression>
+              <Expression id="7">
+                <ExpSyntax val="'B'"/>
+                <ExpAttribute val="A"/>
+              </Expression>
             </Expressions>
-            <VarRangeInfo Mode="E" VarRangeVeeIsn="1" id="1"/>
-            <VarRangeInfo Mode="E" VarRangeVeeIsn="2" id="2"/>
-            <VarRangeInfo Mode="E" VarRangeVeeIsn="3" id="3"/>
-            <VarRangeInfo Mode="E" VarRangeVeeIsn="4" id="4"/>
-            <VarRangeInfo Mode="E" VarRangeVeeIsn="5" id="5"/>
           </Task>
         </Task>
       </Task>

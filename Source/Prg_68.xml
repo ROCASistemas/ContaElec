@@ -30,7 +30,7 @@
           <External val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="735907" _time="49954" date="05/11/2015" time="13:52:34"/>
+          <LastModified _date="735912" _time="58003" date="10/11/2015" time="16:06:43"/>
         </Header>
         <ItemIsn val="25"/>
         <Resource>
@@ -1316,7 +1316,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="735907" _time="49954" date="05/11/2015" time="13:52:34"/>
+            <LastModified _date="735912" _time="58003" date="10/11/2015" time="16:06:43"/>
           </Header>
           <ItemIsn val="34"/>
           <Resource>
@@ -3214,11 +3214,11 @@
               <ExpAttribute val="N"/>
             </Expression>
             <Expression id="39">
-              <ExpSyntax val="{0,2}=0"/>
+              <ExpSyntax val="{0,2}=0 AND {1,15}='N'"/>
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="40">
-              <ExpSyntax val="{0,18}=0"/>
+              <ExpSyntax val="{0,18}=0 AND {1,15}='N'"/>
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="41">
