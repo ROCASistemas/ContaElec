@@ -12,42 +12,42 @@
 
   <DataSourceRepository>
     <DataObjects>
-      <DataObject PhysicalName="Bancos_SAT" Resident="N" data_source="miContaXML" id="1" length="3680" name="Bancos_SAT" offset="228"/>
-      <DataObject PhysicalName="Configuracion" Resident="N" data_source="miContaXML" id="2" length="16163" name="Configuracion" offset="3909"/>
-      <DataObject PhysicalName="Cuentas_Empresa" Resident="N" data_source="miContaXML" id="3" length="7437" name="Cuentas_Empresa" offset="20073"/>
-      <DataObject PhysicalName="Cuentas_SAT" Resident="N" data_source="miContaXML" id="4" length="3669" name="Cuentas_SAT" offset="27511"/>
-      <DataObject PhysicalName="Empresa" Resident="N" data_source="miContaXML" id="5" length="19410" name="Empresa" offset="31181"/>
-      <DataObject PhysicalName="Metodos_Pago_SAT" Resident="N" data_source="miContaXML" id="6" length="2800" name="Metodos_Pago_SAT" offset="50592"/>
-      <DataObject PhysicalName="Monedas_SAT" Resident="N" data_source="miContaXML" id="7" length="2652" name="Monedas_SAT" offset="53393"/>
-      <DataObject PhysicalName="Usuario" Resident="N" data_source="miContaXML" id="8" length="5967" name="Usuario" offset="56046"/>
-      <DataObject PhysicalName="Bitacora" Resident="N" data_source="miContaXML" id="9" length="12784" name="Bitacora" offset="62014"/>
-      <DataObject PhysicalName="Tipo_Solicitud" Resident="N" data_source="miContaXML" id="12" length="2542" name="Tipo_Solicitud" offset="74799"/>
-      <DataObject PhysicalName="Comprobante_CFDI" Resident="N" data_source="miContaXML" id="13" length="11909" name="Comprobante_CFDI" offset="77342"/>
-      <DataObject PhysicalName="Poliza_Enc_Fin" Resident="N" data_source="miContaXML" id="14" length="9728" name="Poliza_Enc_Fin" offset="89252"/>
-      <DataObject PhysicalName="Poliza_Transac_Fin" Resident="N" data_source="miContaXML" id="15" length="5846" name="Poliza_Transac_Fin" offset="98981"/>
-      <DataObject PhysicalName="Poliza_CompNaci_Fin" Resident="N" data_source="miContaXML" id="16" length="6686" name="Poliza_CompNaci_Fin" offset="104828"/>
-      <DataObject PhysicalName="Poliza_CompNacOtro" Resident="N" data_source="miContaXML" id="17" length="7548" name="Poliza_CompNacOtro" offset="111515"/>
-      <DataObject PhysicalName="Poliza_CompExtranj" Resident="N" data_source="miContaXML" id="18" length="6690" name="Poliza_CompExtranj" offset="119064"/>
-      <DataObject PhysicalName="Poliza_Cheque" Resident="N" data_source="miContaXML" id="19" length="10628" name="Poliza_Cheque" offset="125755"/>
-      <DataObject PhysicalName="Poliza_Transferencia" Resident="N" data_source="miContaXML" id="20" length="12086" name="Poliza_Transferencia" offset="136384"/>
-      <DataObject PhysicalName="Poliza_Otro_Metodo" Resident="N" data_source="miContaXML" id="21" length="8368" name="Poliza_Otro_Metodo" offset="148471"/>
-      <DataObject PhysicalName="Balanza_Empresa" Resident="N" data_source="miContaXML" id="24" length="11021" name="Balanza_Empresa" offset="156840"/>
-      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="25" length="13763" name="PolizasPeriodo_1_1.Polizas" offset="167862"/>
-      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="26" length="9184" name="PolizasPeriodo_1_1.Poliza" offset="181626"/>
-      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="27" length="10610" name="PolizasPeriodo_1_1.Transaccion" offset="190811"/>
-      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="28" length="10620" name="PolizasPeriodo_1_1.CompNal" offset="201422"/>
-      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="29" length="11361" name="PolizasPeriodo_1_1.CompNalOtr" offset="212043"/>
-      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="30" length="10630" name="PolizasPeriodo_1_1.CompExt" offset="223405"/>
-      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="31" length="13743" name="PolizasPeriodo_1_1.Cheque" offset="234036"/>
-      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="32" length="15069" name="PolizasPeriodo_1_1.Transferenci" offset="247780"/>
-      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="33" length="11848" name="PolizasPeriodo_1_1.OtrMetodoPag" offset="262850"/>
-      <DataObject PhysicalName="Catalogo.xml" Resident="N" data_source="Default XML Database" id="34" length="9401" name="CatalogoCuentas_1_1.Catalogo" offset="274699"/>
-      <DataObject PhysicalName="Catalogo.xml" Resident="N" data_source="Default XML Database" id="35" length="8553" name="CatalogoCuentas_1_1.Ctas" offset="284101"/>
-      <DataObject PhysicalName="Balanza.xml" Resident="N" data_source="Default XML Database" id="36" length="9459" name="BalanzaComprobacion_1_1.Balanza" offset="292655"/>
-      <DataObject PhysicalName="Balanza.xml" Resident="N" data_source="Default XML Database" id="37" length="7128" name="BalanzaComprobacion_1_1.Ctas" offset="302115"/>
+      <DataObject PhysicalName="Bancos_SAT" Resident="N" data_source="miContaXML" id="1" length="3565" name="Bancos_SAT" offset="210"/>
+      <DataObject PhysicalName="Configuracion" Resident="N" data_source="miContaXML" id="2" length="15778" name="Configuracion" offset="3776"/>
+      <DataObject PhysicalName="Cuentas_Empresa" Resident="N" data_source="miContaXML" id="3" length="7204" name="Cuentas_Empresa" offset="19555"/>
+      <DataObject PhysicalName="Cuentas_SAT" Resident="N" data_source="miContaXML" id="4" length="3555" name="Cuentas_SAT" offset="26760"/>
+      <DataObject PhysicalName="Empresa" Resident="N" data_source="miContaXML" id="5" length="18949" name="Empresa" offset="30316"/>
+      <DataObject PhysicalName="Metodos_Pago_SAT" Resident="N" data_source="miContaXML" id="6" length="2705" name="Metodos_Pago_SAT" offset="49266"/>
+      <DataObject PhysicalName="Monedas_SAT" Resident="N" data_source="miContaXML" id="7" length="2560" name="Monedas_SAT" offset="51972"/>
+      <DataObject PhysicalName="Usuario" Resident="N" data_source="miContaXML" id="8" length="5797" name="Usuario" offset="54533"/>
+      <DataObject PhysicalName="Bitacora" Resident="N" data_source="miContaXML" id="9" length="12452" name="Bitacora" offset="60331"/>
+      <DataObject PhysicalName="Tipo_Solicitud" Resident="N" data_source="miContaXML" id="12" length="2445" name="Tipo_Solicitud" offset="72784"/>
+      <DataObject PhysicalName="Comprobante_CFDI" Resident="N" data_source="miContaXML" id="13" length="11553" name="Comprobante_CFDI" offset="75230"/>
+      <DataObject PhysicalName="Poliza_Enc_Fin" Resident="N" data_source="miContaXML" id="14" length="9425" name="Poliza_Enc_Fin" offset="86784"/>
+      <DataObject PhysicalName="Poliza_Transac_Fin" Resident="N" data_source="miContaXML" id="15" length="5658" name="Poliza_Transac_Fin" offset="96210"/>
+      <DataObject PhysicalName="Poliza_CompNaci_Fin" Resident="N" data_source="miContaXML" id="16" length="6473" name="Poliza_CompNaci_Fin" offset="101869"/>
+      <DataObject PhysicalName="Poliza_CompNacOtro" Resident="N" data_source="miContaXML" id="17" length="7312" name="Poliza_CompNacOtro" offset="108343"/>
+      <DataObject PhysicalName="Poliza_CompExtranj" Resident="N" data_source="miContaXML" id="18" length="6477" name="Poliza_CompExtranj" offset="115656"/>
+      <DataObject PhysicalName="Poliza_Cheque" Resident="N" data_source="miContaXML" id="19" length="10304" name="Poliza_Cheque" offset="122134"/>
+      <DataObject PhysicalName="Poliza_Transferencia" Resident="N" data_source="miContaXML" id="20" length="11727" name="Poliza_Transferencia" offset="132439"/>
+      <DataObject PhysicalName="Poliza_Otro_Metodo" Resident="N" data_source="miContaXML" id="21" length="8107" name="Poliza_Otro_Metodo" offset="144167"/>
+      <DataObject PhysicalName="Balanza_Empresa" Resident="N" data_source="miContaXML" id="24" length="10681" name="Balanza_Empresa" offset="152275"/>
+      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="25" length="13414" name="PolizasPeriodo_1_1.Polizas" offset="162957"/>
+      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="26" length="8958" name="PolizasPeriodo_1_1.Poliza" offset="176372"/>
+      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="27" length="10345" name="PolizasPeriodo_1_1.Transaccion" offset="185331"/>
+      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="28" length="10355" name="PolizasPeriodo_1_1.CompNal" offset="195677"/>
+      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="29" length="11077" name="PolizasPeriodo_1_1.CompNalOtr" offset="206033"/>
+      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="30" length="10365" name="PolizasPeriodo_1_1.CompExt" offset="217111"/>
+      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="31" length="13394" name="PolizasPeriodo_1_1.Cheque" offset="227477"/>
+      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="32" length="14686" name="PolizasPeriodo_1_1.Transferenci" offset="240872"/>
+      <DataObject PhysicalName="Polizas.xml" Resident="N" data_source="Default XML Database" id="33" length="11550" name="PolizasPeriodo_1_1.OtrMetodoPag" offset="255559"/>
+      <DataObject PhysicalName="Catalogo.xml" Resident="N" data_source="Default XML Database" id="34" length="9148" name="CatalogoCuentas_1_1.Catalogo" offset="267110"/>
+      <DataObject PhysicalName="Catalogo.xml" Resident="N" data_source="Default XML Database" id="35" length="8319" name="CatalogoCuentas_1_1.Ctas" offset="276259"/>
+      <DataObject PhysicalName="Balanza.xml" Resident="N" data_source="Default XML Database" id="36" length="9182" name="BalanzaComprobacion_1_1.Balanza" offset="284579"/>
+      <DataObject PhysicalName="Balanza.xml" Resident="N" data_source="Default XML Database" id="37" length="6913" name="BalanzaComprobacion_1_1.Ctas" offset="293762"/>
     </DataObjects>
   </DataSourceRepository>
 
-  <LastModified val="30481403138272751"/>
+  <LastModified val="30480412205139404"/>
 
 </Application>
