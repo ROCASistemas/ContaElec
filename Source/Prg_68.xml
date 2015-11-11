@@ -30,7 +30,11 @@
           <External val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
+<<<<<<< HEAD
           <LastModified _date="735912" _time="58003" date="10/11/2015" time="16:06:43"/>
+=======
+          <LastModified _date="735912" _time="58468" date="10/11/2015" time="16:14:28"/>
+>>>>>>> 450a274c1daf6864d7993a2f02adb18644094f09
         </Header>
         <ItemIsn val="25"/>
         <Resource>
@@ -1316,7 +1320,11 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
+<<<<<<< HEAD
             <LastModified _date="735912" _time="58003" date="10/11/2015" time="16:06:43"/>
+=======
+            <LastModified _date="735912" _time="58468" date="10/11/2015" time="16:14:28"/>
+>>>>>>> 450a274c1daf6864d7993a2f02adb18644094f09
           </Header>
           <ItemIsn val="34"/>
           <Resource>
@@ -1817,7 +1825,7 @@
                 </LogicLine>
                 <LogicLine>
                   <Select FieldID="27" FlowIsn="227" id="27">
-                    <ASS val="34"/>
+                    <ASS val="33"/>
                     <Column val="11"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
@@ -1834,7 +1842,7 @@
                 </LogicLine>
                 <LogicLine>
                   <Select FieldID="28" FlowIsn="228" id="28">
-                    <ASS val="34"/>
+                    <ASS val="33"/>
                     <Column val="12"/>
                     <Type val="V"/>
                     <IsParameter val="N"/>
@@ -1879,7 +1887,7 @@
                     <Type val="R"/>
                     <IsParameter val="N"/>
                     <REAL_VNAME_TXT val="Clave_Nac"/>
-                    <Locate MAX="29" MIN="29"/>
+                    <Locate MAX="28" MIN="28"/>
                     <_RecomputeIndex val="1"/>
                     <_FormIndex val="1"/>
                     <_ControlIndex val="1"/>
@@ -1926,7 +1934,7 @@
                     <Type val="R"/>
                     <IsParameter val="N"/>
                     <REAL_VNAME_TXT val="Clave_Ext"/>
-                    <Locate MAX="30" MIN="30"/>
+                    <Locate MAX="29" MIN="29"/>
                     <_RecomputeIndex val="1"/>
                     <_FormIndex val="1"/>
                     <_ControlIndex val="1"/>
@@ -2196,40 +2204,36 @@
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="41" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="Debe capturar el no de Cheque" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
-                    <Condition Exp="22"/>
+                    <Condition Exp="21"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
                 </LogicLine>
                 <LogicLine>
-                  <Remark FlowIsn="330">
-                    <Type val="2"/>
-                    <Text val="Validacion incorrecta"/>
-                  </Remark>
+                  <BLOCK EndBlock="44" EndBlockSegment="44" FlowIsn="360" Type="I">
+                    <Condition Exp="36"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </BLOCK>
                 </LogicLine>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="269" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="Debe capturar el Banco Emisor Nacional" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
-                    <Disabled val="1"/>
                     <Condition Exp="15"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
                 </LogicLine>
                 <LogicLine>
-                  <Remark FlowIsn="328">
-                    <Type val="2"/>
-                    <Text val="No se usa la linea de abajo"/>
-                  </Remark>
-                </LogicLine>
-                <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="270" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="El Banco Emisor Nacional no existe" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
-                    <Disabled val="1"/>
                     <Condition Exp="16"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
+                </LogicLine>
+                <LogicLine>
+                  <END_BLK FlowIsn="362"/>
                 </LogicLine>
                 <LogicLine>
                   <CallTask FlowIsn="91">
@@ -2238,7 +2242,7 @@
                     <Lock val="N"/>
                     <Wait val="Y"/>
                     <SyncData val="N"/>
-                    <Condition Exp="28"/>
+                    <Condition Exp="27"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </CallTask>
@@ -2246,53 +2250,41 @@
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="90" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="El cheque ya existe" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
-                    <Condition Exp="27"/>
+                    <Condition Exp="26"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
                 </LogicLine>
                 <LogicLine>
-                  <Remark FlowIsn="331">
-                    <Type val="2"/>
-                    <Text val="Validacion incorrecta"/>
-                  </Remark>
+                  <BLOCK EndBlock="50" EndBlockSegment="50" FlowIsn="363" Type="I">
+                    <Condition Exp="37"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </BLOCK>
                 </LogicLine>
                 <LogicLine>
-                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="267" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="Debe capturar el Banco Emisor Extranjero" TitleTxt="Error" VR_DISP="B">
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="268" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="Debe capturar el Banco Emisor Extranjero" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
-                    <Disabled val="1"/>
                     <Condition Exp="17"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
                 </LogicLine>
                 <LogicLine>
-                  <Remark FlowIsn="329">
-                    <Type val="2"/>
-                    <Text val="No se usa la linea de abajo"/>
-                  </Remark>
-                </LogicLine>
-                <LogicLine>
-                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="268" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="El Banco Emisor Extranjero no existe" TitleTxt="Error" VR_DISP="B">
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="332" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="El Banco Emisor Extranjero no existe" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
-                    <Disabled val="1"/>
-                    <Condition Exp="18"/>
+                    <Condition Exp="35"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
                 </LogicLine>
                 <LogicLine>
-                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="332" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="Debe capturar un Banco Emisor" TitleTxt="Error" VR_DISP="B">
-                    <AppendToErrorLog val="Y"/>
-                    <Condition Exp="36"/>
-                    <Modifier val="B"/>
-                    <Direction val="C"/>
-                  </STP>
+                  <END_BLK FlowIsn="365"/>
                 </LogicLine>
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="139" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="Debe capturar la cuenta origen" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
-                    <Condition Exp="19"/>
+                    <Condition Exp="18"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
@@ -2300,7 +2292,7 @@
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="231" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="Debe capturar el beneficiario" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
-                    <Condition Exp="20"/>
+                    <Condition Exp="19"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
@@ -2337,7 +2329,7 @@
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="14" FlowIsn="40" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
-                    <Condition Exp="21"/>
+                    <Condition Exp="20"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
@@ -2345,7 +2337,7 @@
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="43" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="Debe capturar el Monto Total" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
-                    <Condition Exp="23"/>
+                    <Condition Exp="22"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
@@ -2353,7 +2345,7 @@
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="44" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="Debe capturar la Moneda" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
-                    <Condition Exp="25"/>
+                    <Condition Exp="24"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
@@ -2361,7 +2353,7 @@
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="71" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="La Moneda no existe" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
-                    <Condition Exp="24"/>
+                    <Condition Exp="23"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
@@ -2369,7 +2361,7 @@
                 <LogicLine>
                   <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="55" IMG_DEF_CHG="N" Image="C" Mode="E" TTL_DEF_CHG="N" TXT="Debe capturar el Tipo de Cambio" TitleTxt="Error" VR_DISP="B">
                     <AppendToErrorLog val="Y"/>
-                    <Condition Exp="26"/>
+                    <Condition Exp="25"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </STP>
@@ -2494,7 +2486,7 @@
                 <LogicLine>
                   <Update FlowIsn="324">
                     <FieldID val="27"/>
-                    <WithValue val="35"/>
+                    <WithValue val="34"/>
                     <Incremental val="N"/>
                     <ForcedUpdate val="Y"/>
                     <Condition val="Y"/>
@@ -2505,7 +2497,7 @@
                 <LogicLine>
                   <Update FlowIsn="325">
                     <FieldID val="28"/>
-                    <WithValue val="34"/>
+                    <WithValue val="33"/>
                     <Incremental val="N"/>
                     <ForcedUpdate val="Y"/>
                     <Condition val="Y"/>
@@ -2559,7 +2551,7 @@
                 <LogicLine>
                   <Update FlowIsn="327">
                     <FieldID val="28"/>
-                    <WithValue val="35"/>
+                    <WithValue val="34"/>
                     <Incremental val="N"/>
                     <ForcedUpdate val="Y"/>
                     <Condition val="Y"/>
@@ -2570,7 +2562,7 @@
                 <LogicLine>
                   <Update FlowIsn="326">
                     <FieldID val="27"/>
-                    <WithValue val="34"/>
+                    <WithValue val="33"/>
                     <Incremental val="N"/>
                     <ForcedUpdate val="Y"/>
                     <Condition val="Y"/>
@@ -2669,7 +2661,7 @@
                   <Height id="24" val="10"/>
                   <Data FieldID="1" id="43"/>
                   <ControlName id="46" val="v_uNumero"/>
-                  <Enabled Exp="28" id="62"/>
+                  <Enabled Exp="27" id="62"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="1"/>
                 </PropertyList>
@@ -2698,7 +2690,7 @@
                   <Height id="24" val="10"/>
                   <Data FieldID="2" id="43"/>
                   <ControlName id="46" val="v_nBancoEmiNac"/>
-                  <Enabled Exp="32" id="62"/>
+                  <Enabled Exp="31" id="62"/>
                   <MultiLineEdit id="71"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="2"/>
@@ -2746,7 +2738,7 @@
                   <Height id="24" val="10"/>
                   <Data FieldID="18" id="43"/>
                   <ControlName id="46" val="v_nBancoEmisExt"/>
-                  <Enabled Exp="31" id="62"/>
+                  <Enabled Exp="30" id="62"/>
                   <MultiLineEdit id="71"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="5"/>
@@ -2985,7 +2977,7 @@
                   <Height id="24" val="10"/>
                   <Data FieldID="17" id="43"/>
                   <ControlName id="46" val="v_nTipoCambio"/>
-                  <Enabled Exp="33" id="62"/>
+                  <Enabled Exp="32" id="62"/>
                   <MultiLineEdit id="71"/>
                   <_Orientation id="143"/>
                   <TabOrder id="314" val="17"/>
@@ -2999,7 +2991,7 @@
                   <Height id="24" val="11"/>
                   <Data FieldID="30" id="43"/>
                   <ControlName id="46" val="BTN BancoNacional"/>
-                  <Enabled Exp="32" id="62"/>
+                  <Enabled Exp="31" id="62"/>
                   <Format id="82" valUnicode="..."/>
                   <RaiseEvent id="234">
                     <EventType val="I"/>
@@ -3020,7 +3012,7 @@
                   <Height id="24" val="11"/>
                   <Data FieldID="31" id="43"/>
                   <ControlName id="46" val="BTN BancoExtranjero"/>
-                  <Enabled Exp="31" id="62"/>
+                  <Enabled Exp="30" id="62"/>
                   <Format id="82" valUnicode="..."/>
                   <RaiseEvent id="234">
                     <EventType val="I"/>
@@ -3150,19 +3142,15 @@
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="37">
-              <ExpSyntax val="{0,2}=0"/>
+              <ExpSyntax val="{0,2}=0 AND {0,18}=0"/>
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="38">
-              <ExpSyntax val="{0,27}"/>
-              <ExpAttribute val="B"/>
-            </Expression>
-            <Expression id="35">
-              <ExpSyntax val="{0,18}=0"/>
+              <ExpSyntax val="NOT({0,27})"/>
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="36">
-              <ExpSyntax val="{0,28}"/>
+              <ExpSyntax val="{0,18}=0 AND {0,2}=0"/>
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="34">
@@ -3234,12 +3222,20 @@
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="44">
-              <ExpSyntax val="NOT({0,27} OR {0,28})"/>
+              <ExpSyntax val="NOT({0,28})"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="45">
+              <ExpSyntax val="{0,28} = 'FALSE'LOG"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="46">
+              <ExpSyntax val="{0,27} = 'FALSE'LOG"/>
               <ExpAttribute val="B"/>
             </Expression>
           </Expressions>
           <Task MainProgram="N">
-            <Header Description="Guardar Cheque" ISN_2="3" LastIsn="6" id="68">
+            <Header Description="Guardar Cheque" ISN_2="3" LastIsn="3" id="68">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>

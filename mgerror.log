@@ -1362,6 +1362,7 @@
  <562024887468355900> 10/11/2015 12:38:50.251     [Error  ] - Contraseña incorrecta.
  <228035447666720420> 10/11/2015 12:41:26.700     [Error  ] - Cannot open output PDF file in Write mode: C:\CE\EMP1\Generados\Cuentas\SIV741223947\2015\SIV741223947201511CT.pdf, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_CuentasEmpresa.Q_CuentasEmpresa.O_AgregarModificar.PS_XMLCuentas.RP_CatalogoCuentas.Leer
  <504329260634522370> 10/11/2015 12:43:56.772     [Error  ] - Contraseña incorrecta.
+<<<<<<< HEAD
  <-1             > 10/11/2015 15:04:26.329     [Error  ] - Component Files not found : model.ecf
  <-1             > 10/11/2015 15:04:26.624     [Error  ] - Component Files not found : model.ecf
  <-1             > 10/11/2015 15:04:27.063     [Error  ] - Component Files not found : model.ecf
@@ -1387,3 +1388,60 @@
  <439971357095120450> 11/11/2015 09:51:05.846     [Error  ] - File not found: C:\CE\EMP1\Generados\Balanzas\SIV741223947\2015\SIV741223947201510BN.pdf, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Visor_Bitacora.Q_MuestraBitacora
  <439971357095120450> 11/11/2015 09:51:16.611     [Error  ] - File not found: C:\CE\EMP1\Generados\Balanzas\SIV741223947\2015\SIV741223947201510BN.pdf, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Visor_Bitacora.Q_MuestraBitacora
  <439971357095120450> 11/11/2015 09:51:18.619     [Error  ] - File not found: C:\CE\EMP1\Generados\Balanzas\SIV741223947\2015\SIV741223947201510BN.xml, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Visor_Bitacora.Q_MuestraBitacora
+=======
+ <199954048019469180> 10/11/2015 16:17:30.508     [Error  ] - Debe capturar el Banco Emisor Nacional
+ <199954048019469180> 10/11/2015 16:17:44.899     [Error  ] - RFC errónea, del digíto 4 al 9 deben ser tipo Numérico
+ <199954048019469180> 10/11/2015 16:17:55.000     [Error  ] - RFC errónea, del digíto 4 al 9 deben ser tipo Numérico
+ <199954048019469180> 10/11/2015 16:18:50.950     [Error  ] - El registro ya existe
+ <199954048019469180> 10/11/2015 16:19:02.038     [Error  ] - El registro ya existe
+ <199954048019469180> 10/11/2015 16:19:03.975     [Error  ] - El registro ya existe
+ <199954048019469180> 10/11/2015 16:19:05.418     [Error  ] - El registro ya existe
+ <199954048019469180> 10/11/2015 16:19:06.891     [Error  ] - El registro ya existe
+ <199954048019469180> 10/11/2015 16:19:21.269     [Error  ] - El registro ya existe
+ <199954048019469180> 10/11/2015 16:20:38.757     [Error  ] - Invalid number, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Poliza EncFinanciero.PP_Encabezado Poliza_Trans.Transacciones.P_DetalleTransaccionPoliza.PP_Transferencia.Captura_Transferencia
+ <199954048019469180> 10/11/2015 16:20:43.719     [Error  ] - El registro ya existe
+ <199954048019469180> 10/11/2015 16:20:55.496     [Error  ] - Debe capturar el Banco Destino
+ <199954048019469180> 10/11/2015 16:21:20.956     [Error  ] - Debe capturar el Banco Destino
+ <197191740567370660> 10/11/2015 16:29:59.049     [Error  ] - El registro ya existe
+ <197191740567370660> 10/11/2015 16:30:32.335     [Error  ] - El registro ya existe
+ <197191740567370660> 10/11/2015 16:30:41.748     [Error  ] - El registro ya existe
+ <197191740567370660> 10/11/2015 16:30:44.758     [Error  ] - El registro ya existe
+ <197191740567370660> 10/11/2015 16:30:55.467     [Error  ] - El registro ya existe
+ <197191740567370660> 10/11/2015 16:31:49.539     [Error  ] - El registro ya existe
+ <197191740567370660> 10/11/2015 16:32:58.413     [Error  ] - El registro ya existe
+ <197191740567370660> 10/11/2015 16:33:03.251     [Error  ] - El registro ya existe
+ <197191740567370660> 10/11/2015 16:33:05.390     [Error  ] - El registro ya existe
+ <197191740567370660> 10/11/2015 16:33:06.760     [Error  ] - El registro ya existe
+ <197191740567370660> 10/11/2015 16:33:08.484     [Error  ] - El registro ya existe
+ <535398525655479100> 10/11/2015 16:53:35.027     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <535398525655479100> 10/11/2015 17:03:25.546     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <123745865402117620> 10/11/2015 17:06:52.638     [Error  ] - Contraseña incorrecta.
+ <123745865402117620> 10/11/2015 17:06:57.498     [Error  ] - Contraseña incorrecta.
+ <123745865402117620> 10/11/2015 17:07:00.594     [Error  ] - Contraseña incorrecta.
+ <123745865402117620> 10/11/2015 17:07:03.625     [Error  ] - Contraseña incorrecta.
+ <123745865402117620> 10/11/2015 17:07:11.294     [Error  ] - Contraseña incorrecta.
+ <209892885314255420> 10/11/2015 17:17:11.273     [Error  ] - Contraseña incorrecta.
+ <209892885314255420> 10/11/2015 17:17:14.523     [Error  ] - Contraseña incorrecta.
+ <209892885314255420> 10/11/2015 17:17:18.586     [Error  ] - Contraseña incorrecta.
+ <127724330301656830> 10/11/2015 17:48:01.861     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <127724330301656830> 10/11/2015 17:50:19.089     [Error  ] - Constraint failure, data source:  Bitacora, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Balanza.Q_CatBalanzas.PS_LlenaBitacora.Q_VerificaArchivoGenerado.M_BajaBitacora
+ <-1             > 11/11/2015 09:03:44.734     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:03:47.091     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:03:47.675     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:03:47.937     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:04:24.910     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:04:24.972     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:04:25.121     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 09:04:25.141     [Error  ] - Component Files not found : model.ecf
+ <285038922224631260> 11/11/2015 09:04:51.636     [Error  ] - Failed to open, data source: Balanza_Empresa, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Balanza.Q_FechaModif
+ <482503705695349310> 11/11/2015 09:07:19.942     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <151233271029545410> 11/11/2015 09:59:30.387     [Error  ] - Ya existe el registro
+ <151233271029545410> 11/11/2015 09:59:39.289     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <552825939006560700> 11/11/2015 10:39:07.200     [Error  ] - Cannot open output PDF file in Write mode: C:\CE\EMP1\Generados\Balanzas\SIV741223947\2015\SIV741223947201510BN.pdf, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Balanza.Q_CatBalanzas.Actualiza_documentos.PS_XMLBalanzaComprobacion.RP_BalanzaComprobacion.Lee
+ <54246809723839896> 11/11/2015 10:46:48.434     [Error  ] - Cannot open output PDF file in Write mode: C:\CE\EMP1\Generados\Balanzas\SIV741223947\2015\SIV741223947201501BC.pdf, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Balanza.Q_CatBalanzas.PS_XMLBalanzaComprobacion.RP_BalanzaComprobacion.Lee
+ <54246809723839896> 11/11/2015 10:47:09.172     [Error  ] - Debe agregar un Número de Cuenta
+ <54246809723839896> 11/11/2015 10:47:13.556     [Error  ] - Ya existe el registro
+ <54246809723839896> 11/11/2015 10:48:31.830     [Error  ] - Debe especificar el Nombre de la Cuenta / Subcuenta.
+ <439640060598747650> 11/11/2015 10:57:26.557     [Error  ] - Contraseña incorrecta.
+ <439640060598747650> 11/11/2015 10:57:43.292     [Error  ] - Ya existe el registro
+>>>>>>> 450a274c1daf6864d7993a2f02adb18644094f09
