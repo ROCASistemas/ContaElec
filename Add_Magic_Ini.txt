@@ -4,6 +4,12 @@ miContaXML = DBMS, 21, miContaXML, , %BD_Server%, , %BD_User%, %BD_Pass%,+ NoMag
 NoFileLocks, , , CheckExist, 0, , NoAS400SrvrSort,
 
 [MAGIC_LOGICAL_NAMES]
+CE_Tipo = L
+7zip = C:\App\ContabilidadElectronica\jZip
+ArchivosTEMP = C:\CE\Temp\
+Workingdir = C:\App\ContabilidadElectronica
+contaelec = C:\Magic\xpi\3_4\User resources\Components\ContaElec\
+
 ArchivosTEMP = D:\Magic\xpi34\User resources\Components\ContaElec\Temp\
 contaelec = D:\Magic\xpi34\User resources\Components\ContaElec\
 support = D:\Magic\xpi34\SUPPORT\

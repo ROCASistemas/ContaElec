@@ -441,7 +441,7 @@
       <SourceFileTimeStamp _date="735913" _time="62011" date="11/11/2015" time="17:13:31"/>
     </Program>
     <Program>
-      <Header Description="PP_Balanza" ISN_2="5" LastIsn="5" id="61">
+      <Header Description="PP_Balanza" ISN_2="5" LastIsn="125" id="61">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -688,6 +688,28 @@
         <LastModified date="00/00/0000" time="00:00:00"/>
       </Header>
       <SourceFileTimeStamp _date="735694" _time="70532" date="06/04/2015" time="19:35:32"/>
+    </Program>
+    <Program>
+      <Header Description="PS_Calendario" ISN_2="1" LastIsn="1" id="76">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersCount val="1"/>
+          <ParametersAttributes>
+            <Attr MgAttr="D"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="735849" _time="58987" date="08/09/2015" time="16:23:07"/>
+      </Header>
+      <SourceFileTimeStamp _date="735849" _time="76988" date="08/09/2015" time="21:23:08"/>
     </Program>
   </ProgramsRepositoryHeaders>
 

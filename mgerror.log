@@ -1445,3 +1445,15 @@
  <439640060598747650> 11/11/2015 10:57:26.557     [Error  ] - Contraseña incorrecta.
  <439640060598747650> 11/11/2015 10:57:43.292     [Error  ] - Ya existe el registro
 >>>>>>> 450a274c1daf6864d7993a2f02adb18644094f09
+ <-1             > 11/11/2015 11:14:13.490     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:14:13.741     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:14:13.932     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:14:14.185     [Error  ] - Component Files not found : model.ecf
+ <-1             > 13/11/2015 09:32:11.086     [Error  ] - Component Files not found : model.ecf
+ <-1             > 13/11/2015 09:32:22.568     [Error  ] - Component Files not found : model.ecf
+ <-1             > 13/11/2015 09:32:23.764     [Error  ] - Component Files not found : model.ecf
+ <-1             > 13/11/2015 09:32:26.105     [Error  ] - Component Files not found : model.ecf
+ <171411943799056700> 13/11/2015 09:41:56.612     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <171411943799056700> 13/11/2015 09:42:28.126     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <171411943799056700> 13/11/2015 09:43:42.605     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <171411943799056700> 13/11/2015 09:44:03.538     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
