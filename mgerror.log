@@ -1445,6 +1445,7 @@
  <439640060598747650> 11/11/2015 10:57:26.557     [Error  ] - Contraseña incorrecta.
  <439640060598747650> 11/11/2015 10:57:43.292     [Error  ] - Ya existe el registro
 >>>>>>> 450a274c1daf6864d7993a2f02adb18644094f09
+<<<<<<< HEAD
  <-1             > 11/11/2015 11:14:13.490     [Error  ] - Component Files not found : model.ecf
  <-1             > 11/11/2015 11:14:13.741     [Error  ] - Component Files not found : model.ecf
  <-1             > 11/11/2015 11:14:13.932     [Error  ] - Component Files not found : model.ecf
@@ -1457,3 +1458,25 @@
  <171411943799056700> 13/11/2015 09:42:28.126     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
  <171411943799056700> 13/11/2015 09:43:42.605     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
  <171411943799056700> 13/11/2015 09:44:03.538     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+=======
+ <-1             > 11/11/2015 11:17:30.622     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:17:32.094     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:17:33.048     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:17:33.249     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:18:44.123     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:18:45.788     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:18:46.107     [Error  ] - Component Files not found : model.ecf
+ <-1             > 11/11/2015 11:18:47.553     [Error  ] - Component Files not found : model.ecf
+ <252830918437112610> 11/11/2015 12:20:08.642     [Error  ] - Subform control refers to a program/task that is not online., program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Poliza EncFinanciero.PP_Encabezado Poliza_Trans.Transacciones.P_DetalleTransaccionPoliza
+ <252830918437112610> 11/11/2015 12:20:08.714     [Error  ] - Subform control refers to a program/task that is not online., program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Poliza EncFinanciero.PP_Encabezado Poliza_Trans.Transacciones.P_DetalleTransaccionPoliza
+>>>>>>> 10225b79e593ed7b32228acf686ae9d1afaf6f0f
+ <-1             > 13/11/2015 09:50:58.250     [Error  ] - Component Files not found : model.ecf
+ <-1             > 13/11/2015 09:51:00.153     [Error  ] - Component Files not found : model.ecf
+ <-1             > 13/11/2015 09:51:00.367     [Error  ] - Component Files not found : model.ecf
+ <-1             > 13/11/2015 09:51:00.736     [Error  ] - Component Files not found : model.ecf
+ <517177524037220160> 13/11/2015 09:58:46.522     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <208546180579355330> 13/11/2015 10:04:10.855     [Error  ] - Contraseña incorrecta.
+ <553560284403795840> 13/11/2015 10:13:21.314     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <553560284403795840> 13/11/2015 10:13:34.133     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza
+ <553560284403795840> 13/11/2015 10:15:34.654     [Error  ] - Cannot open output PDF file in Write mode: C:\CE\EMP1\Generados\Balanzas\SIV741223947\2015\SIV741223947201504BN.pdf, program: PP_CatalogoEmpresas.Q_MuestraEmpresas.PP_Balanza.Q_CatBalanzas.PS_XMLBalanzaComprobacion.RP_BalanzaComprobacion.Lee
+ <553560284403795840> 13/11/2015 10:16:46.191     [Error  ] - Necesita Generar el Archivo XML correspondiente a esta Balanza

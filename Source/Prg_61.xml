@@ -12,7 +12,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="PP_Balanza" ISN_2="5" LastIsn="142" id="61">
+        <Header Description="PP_Balanza" ISN_2="5" LastIsn="125" id="61">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -31,7 +31,7 @@
           <External val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="735913" _time="39435" date="11/11/2015" time="10:57:15"/>
+          <LastModified _date="735915" _time="36239" date="13/11/2015" time="10:03:59"/>
         </Header>
         <ItemIsn val="62"/>
         <Resource>
@@ -976,7 +976,7 @@
           </Expression>
         </Expressions>
         <Task MainProgram="N">
-          <Header Description="Q_CatBalanzas" ISN_2="16" LastIsn="142" id="61">
+          <Header Description="Q_CatBalanzas" ISN_2="16" LastIsn="125" id="61">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -990,7 +990,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="735913" _time="39435" date="11/11/2015" time="10:57:15"/>
+            <LastModified _date="735915" _time="36239" date="13/11/2015" time="10:03:59"/>
           </Header>
           <ItemIsn val="47"/>
           <Resource>
@@ -2165,7 +2165,7 @@
                 <LogicLine>
                   <CallTask FlowIsn="408">
                     <OperationType val="P"/>
-                    <TaskID comp="-1" obj="108"/>
+                    <TaskID comp="-1" obj="106"/>
                     <Lock val="N"/>
                     <Arguments>
                       <Argument>
@@ -2873,7 +2873,7 @@
           <VarRangeInfo Mode="E" VarRangeVeeIsn="4" id="5"/>
           <VarRangeInfo Mode="E" VarRangeVeeIsn="5" id="6"/>
           <Task MainProgram="N">
-            <Header Description="O_AgregarModificar" ISN_2="17" LastIsn="142" id="61">
+            <Header Description="O_AgregarModificar" ISN_2="17" LastIsn="125" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -4070,7 +4070,7 @@
               </Expression>
             </Expressions>
             <Task MainProgram="N">
-              <Header Description="M_Guarda" ISN_2="18" LastIsn="142" id="61">
+              <Header Description="M_Guarda" ISN_2="18" LastIsn="125" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -4899,7 +4899,7 @@
               </Expressions>
             </Task>
             <Task MainProgram="N">
-              <Header Description="Q_ValidaBalanza" ISN_2="19" LastIsn="142" id="61">
+              <Header Description="Q_ValidaBalanza" ISN_2="19" LastIsn="125" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -5422,7 +5422,7 @@
               </Expressions>
             </Task>
             <Task MainProgram="N">
-              <Header Description="M_ResetEnvio" ISN_2="124" LastIsn="142" id="61">
+              <Header Description="M_ResetEnvio" ISN_2="124" LastIsn="125" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -5881,7 +5881,7 @@
               <VarRangeInfo Mode="E" VarRangeVeeIsn="21" id="10"/>
               <VarRangeInfo Mode="E" VarRangeVeeIsn="14" id="11"/>
               <Task MainProgram="N">
-                <Header Description="M_Guarda" ISN_2="125" LastIsn="142" id="61">
+                <Header Description="M_Guarda" ISN_2="125" LastIsn="125" id="61">
                   <ExecutionRight comp="-1"/>
                   <Resident val="N"/>
                   <SQL val="N"/>
@@ -6198,7 +6198,7 @@
             </Task>
           </Task>
           <Task MainProgram="N">
-            <Header Description="D_Borra" ISN_2="20" LastIsn="142" id="61">
+            <Header Description="D_Borra" ISN_2="20" LastIsn="125" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -6455,7 +6455,7 @@
             <VarRangeInfo Mode="E" VarRangeVeeIsn="7" id="6"/>
           </Task>
           <Task MainProgram="N">
-            <Header Description="M_GuardaEnvio" ISN_2="51" LastIsn="142" id="61">
+            <Header Description="M_GuardaEnvio" ISN_2="51" LastIsn="125" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -6914,7 +6914,7 @@
             <VarRangeInfo Mode="T" VarRangeVeeIsn="21" id="10"/>
             <VarRangeInfo Mode="T" VarRangeVeeIsn="14" id="11"/>
             <Task MainProgram="N">
-              <Header Description="M_Guarda" ISN_2="52" LastIsn="142" id="61">
+              <Header Description="M_Guarda" ISN_2="52" LastIsn="125" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -7230,7 +7230,7 @@
             </Task>
           </Task>
           <Task MainProgram="N">
-            <Header Description="M_GuardaAgregadas" ISN_2="71" LastIsn="142" id="61">
+            <Header Description="M_GuardaAgregadas" ISN_2="71" LastIsn="125" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -7745,7 +7745,7 @@
             </Expressions>
             <VarRangeInfo Mode="E" VarRangeVeeIsn="9" id="1"/>
             <Task MainProgram="N">
-              <Header Description="M_Guarda" ISN_2="72" LastIsn="142" id="61">
+              <Header Description="M_Guarda" ISN_2="72" LastIsn="125" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -8239,7 +8239,7 @@
             </Task>
           </Task>
           <Task MainProgram="N">
-            <Header Description="M_GuardaImportado" ISN_2="90" LastIsn="142" id="61">
+            <Header Description="M_GuardaImportado" ISN_2="90" LastIsn="125" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -8604,7 +8604,7 @@
             <VarRangeInfo Mode="E" VarRangeVeeIsn="21" id="10"/>
             <VarRangeInfo Mode="E" VarRangeVeeIsn="14" id="11"/>
             <Task MainProgram="N">
-              <Header Description="M_Guarda" ISN_2="107" LastIsn="142" id="61">
+              <Header Description="M_Guarda" ISN_2="107" LastIsn="125" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -9003,7 +9003,7 @@
             </Task>
           </Task>
           <Task MainProgram="N">
-            <Header Description="M_ResetEnvio" ISN_2="119" LastIsn="142" id="61">
+            <Header Description="M_ResetEnvio" ISN_2="119" LastIsn="125" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
@@ -9462,7 +9462,7 @@
             <VarRangeInfo Mode="E" VarRangeVeeIsn="21" id="10"/>
             <VarRangeInfo Mode="E" VarRangeVeeIsn="14" id="11"/>
             <Task MainProgram="N">
-              <Header Description="M_Guarda" ISN_2="120" LastIsn="142" id="61">
+              <Header Description="M_Guarda" ISN_2="120" LastIsn="125" id="61">
                 <ExecutionRight comp="-1"/>
                 <Resident val="N"/>
                 <SQL val="N"/>
@@ -9779,7 +9779,7 @@
           </Task>
         </Task>
         <Task MainProgram="N">
-          <Header Description="Q_FechaModif" ISN_2="76" LastIsn="142" id="61">
+          <Header Description="Q_FechaModif" ISN_2="76" LastIsn="125" id="61">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -10274,7 +10274,7 @@
           </Expressions>
         </Task>
         <Task MainProgram="N">
-          <Header Description="M_GuardaFecha" ISN_2="80" LastIsn="142" id="61">
+          <Header Description="M_GuardaFecha" ISN_2="80" LastIsn="125" id="61">
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -10560,7 +10560,7 @@
           <VarRangeInfo Mode="T" VarRangeVeeIsn="21" id="10"/>
           <VarRangeInfo Mode="T" VarRangeVeeIsn="14" id="11"/>
           <Task MainProgram="N">
-            <Header Description="M_Guarda" ISN_2="81" LastIsn="142" id="61">
+            <Header Description="M_Guarda" ISN_2="81" LastIsn="125" id="61">
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
               <SQL val="N"/>
